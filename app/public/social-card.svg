@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="scikit-learn at the edge — churn, spam and movie genre classification">
+  <defs>
+    <!-- Same blue as the app's series-1 slot and the favicon. -->
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3987e5"/>
+      <stop offset="1" stop-color="#1c5cab"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2a78d6" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#2a78d6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3987e5"/>
+      <stop offset="1" stop-color="#3987e5" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="#0d0d0d"/>
+  <circle cx="905" cy="338" r="330" fill="url(#glow)"/>
+
+  <!-- Edge network: rings radiating out from the model. -->
+  <g fill="none" stroke="#3987e5" stroke-width="1.5">
+    <circle cx="905" cy="338" r="196" stroke-opacity="0.28"/>
+    <circle cx="905" cy="338" r="248" stroke-opacity="0.16"/>
+    <circle cx="905" cy="338" r="300" stroke-opacity="0.08"/>
+  </g>
+  <g fill="#3987e5">
+    <circle cx="905" cy="142" r="7"/>
+    <circle cx="1075" cy="436" r="7" fill-opacity="0.75"/>
+    <circle cx="735" cy="436" r="7" fill-opacity="0.75"/>
+    <circle cx="905" cy="586" r="5.5" fill-opacity="0.4"/>
+    <circle cx="1120" cy="240" r="5.5" fill-opacity="0.4"/>
+    <circle cx="690" cy="240" r="5.5" fill-opacity="0.4"/>
+  </g>
+
+  <!-- The model itself: the favicon motif, three ascending bars. -->
+  <rect x="775" y="208" width="260" height="260" rx="58" fill="url(#chip)"/>
+  <g fill="#fcfcfb">
+    <rect x="833" y="366" width="34" height="56" rx="12"/>
+    <rect x="888" y="326" width="34" height="96" rx="12"/>
+    <rect x="943" y="278" width="34" height="144" rx="12"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+    <text x="96" y="222" fill="#898781" font-size="21" font-weight="600" letter-spacing="4.5">
+      MACHINE LEARNING
+    </text>
+    <text x="94" y="316" fill="#ffffff" font-size="76" font-weight="640" letter-spacing="-2.4">
+      scikit-learn
+    </text>
+    <text x="94" y="404" fill="#3987e5" font-size="76" font-weight="640" letter-spacing="-2.4">
+      at the edge
+    </text>
+    <rect x="96" y="452" width="168" height="3" rx="1.5" fill="url(#rule)"/>
+    <!-- One supporting line only: at portfolio-thumbnail size anything
+         smaller than this degrades into grey noise, and the card already
+         sits beside a written description. -->
+    <text x="96" y="514" fill="#c3c2b7" font-size="31" font-weight="450">
+      churn · spam · movie genre
+    </text>
+  </g>
+</svg>
