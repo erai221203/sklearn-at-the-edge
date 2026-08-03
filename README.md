@@ -169,6 +169,33 @@ Nothing else to configure: no database, no environment variables, no separate ba
 no Python at request time. The trained artifacts are committed, so a fresh clone deploys
 without ever running the trainers.
 
+### From the Cloudflare dashboard (Workers Builds)
+
+If you connect the repository to Cloudflare's own Git integration, set these under
+**Workers & Pages → your Worker → Settings → Build**:
+
+| Field | Value |
+|---|---|
+| **Root directory** | `app` |
+| **Build command** | `npm ci && npm run build` |
+| **Deploy command** | `npx wrangler deploy` |
+
+**Root directory is the one that matters.** The deployable project is `app/`, not the
+repository root. Left at the default, `wrangler deploy` finds no `wrangler.jsonc`, silently
+falls back to its non-interactive first-run wizard, invents a config with an `assets`
+directory and *no* `main`, and reports success — publishing the raw source tree as static
+files with no Worker and no API behind it. A correct run reports roughly **74 KiB uploaded
+and 13 asset files**; the broken one reports `0.33 KiB` and 53 files.
+
+A quick check after any deploy:
+
+```bash
+curl -s https://<your-worker>.workers.dev/api/health          # {"status":"ok",...}
+curl -s -o /dev/null -w '%{http_code}\n' https://<...>/src/main.tsx   # want 404, not 200
+```
+
+If `/api/health` 404s, or `/src/main.tsx` returns 200, the build settings are wrong.
+
 ### From GitHub
 
 `.github/workflows/deploy.yml` typechecks, tests and builds every push and pull request, and
