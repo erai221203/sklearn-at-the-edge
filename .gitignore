@@ -1,0 +1,20 @@
+# Raw datasets that are downloaded rather than committed (see ml/README.md)
+data/*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node / Vite / Wrangler
+node_modules/
+app/dist/
+app/.wrangler/
+.dev.vars
+
+# Editors & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

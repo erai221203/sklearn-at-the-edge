@@ -1,0 +1,4075 @@
+{
+ "task": "movie-genre",
+ "cases": [
+  {
+   "input": {
+    "text": "The Tanamatsuri family races home from their daily activities to honor Grandma Tanamatsuri on her birthday. Unfortunately for them, the road home is plagued with mini-games full of terrorists, aliens, giant stray globes, and a monstrous teddy bear."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.045300660704092784,
+      0.012272582315990897,
+      0.03792563664481731,
+      0.05090448909441592,
+      0.004194242563661209,
+      0.17101600361732824,
+      0.006149312987954805,
+      0.1874005940781667,
+      0.1438799901427884,
+      0.05379573331791697,
+      0.007266663468631783,
+      0.005264234547984005,
+      0.005962299961081911,
+      0.044148877507212476,
+      0.0032654408443984553,
+      0.002087018755475604,
+      0.005135683264645915,
+      0.00367112969198536,
+      0.022388156337115606,
+      0.006948273531287521,
+      0.019190490161748716,
+      0.09766099177711907,
+      0.011215227511209824,
+      0.009278505265043716,
+      0.03769978131135769,
+      0.00383976729993239,
+      0.0021382132966335688
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 5,
+     "probabilities": [
+      0.012187160994536636,
+      0.00435430557532349,
+      0.00981334922940753,
+      0.06567441569972698,
+      0.002658771997300209,
+      0.3419203695033083,
+      0.0039054741990011935,
+      0.13411360683422985,
+      0.12145031404913549,
+      0.08861157203608579,
+      0.0024740416960046404,
+      0.006093592797386641,
+      0.003947364146382666,
+      0.024186685966756764,
+      0.001466930755594046,
+      0.00064373316165169,
+      0.0022345002037066158,
+      0.0031364929410570654,
+      0.020366312569352268,
+      0.0019191823646239367,
+      0.0015194339068125896,
+      0.10631334720359657,
+      0.008944747272734786,
+      0.008239643962407285,
+      0.02065884648057607,
+      0.002555575945673189,
+      0.0006102285076278311
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 5
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Virginia Lee, daughter of a United States Senator, meets David Starr, a wounded United States soldier, in a field hospital in which she is serving as a Red Cross nurse. Star returns to the trenches and Virginia's base hospital is moved. Starr is again wounded and invalided home. Virginia has lost sight of him. She returns to America; and in Washington, Starr sees her at a ball at the French Embassy. Feeling her too far above him, socially, he goes West, whither Virginia's father takes her, on a business trip, and there a vital drama is enacted."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.016449544432297118,
+      0.0016379977276039723,
+      0.010961720543581983,
+      0.0008939653813662965,
+      0.003928419016982216,
+      0.0619701735681644,
+      0.005277868977949123,
+      0.1497245364909512,
+      0.6101372602628207,
+      0.00763062547066226,
+      0.0016820649584205374,
+      0.00023319404723573094,
+      0.002389065560497614,
+      0.013530421451886479,
+      0.001287433803790916,
+      0.002420886359065555,
+      0.001612322092278069,
+      0.0011688376388108265,
+      0.00515303660257437,
+      0.005932130587128938,
+      0.005280417946652406,
+      0.03909706992819726,
+      0.0023586200841812914,
+      0.0009761021716130565,
+      0.026745585712445848,
+      0.0018517293677485557,
+      0.019668969815096027
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.0026576654724258996,
+      0.0002959674279989821,
+      0.0023690700731820607,
+      0.0001562620884278844,
+      0.002532970783081362,
+      0.0037569474384384145,
+      0.0034902149734525978,
+      0.010611879623189872,
+      0.9373356014464745,
+      0.0022204137564263626,
+      0.0004266236834994518,
+      0.0001659768909628705,
+      0.0013156430765116367,
+      0.002163151341348198,
+      0.0009031102605703348,
+      0.0009100805750803325,
+      0.00032520517893830765,
+      0.0012554025649967695,
+      0.0029504651068212595,
+      0.0011488147039324748,
+      0.0022422299015690435,
+      0.0015398622937676033,
+      0.0015363500985200995,
+      0.0004361817080151512,
+      0.01130498123887295,
+      0.0011852308610497228,
+      0.004763697432446176
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 8
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "At just 25 years old, Theodore Roosevelt is a rising star in New York's Republican party, with a beautiful young wife, and a first child on the way. But everything changes on Valentine's Day, 1884 when his wife dies after childbirth and his mother dies from typhoid. Consumed with grief, Teddy abruptly abandons the life he knows and moves west to the Dakota Territory. There, in the midst of bar fights, Indian attacks, and cattle stampedes, this blueblood greenhorn discovers the true soul of the American frontier, and transforms himself into the man who would become known as \"The Cowboy President.\""
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.023403296649541806,
+      0.0012606889384125706,
+      0.004069411040831328,
+      0.0019475448001350113,
+      0.0016256870878005498,
+      0.04661192660050793,
+      0.004046340270051997,
+      0.04549545479246246,
+      0.634703636833444,
+      0.0055045852899752055,
+      0.0030531087240497374,
+      8.682747135341061e-05,
+      0.0012716787982346776,
+      0.050406864986925544,
+      0.0010471102682559131,
+      0.0020599204884124466,
+      0.003147210035475808,
+      9.047301423207659e-05,
+      0.001356242603342428,
+      0.010047854874766837,
+      0.002921489239251637,
+      0.0645990794285653,
+      0.0003062725073127588,
+      0.00022580922653127138,
+      0.021385197874400044,
+      0.0007229742525716618,
+      0.06860331390315476
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.005026413160280926,
+      0.0006153176791131471,
+      0.0009547942184120378,
+      0.00046430116600350074,
+      0.007137449689265112,
+      0.0030991360585732853,
+      0.003122557244238772,
+      0.004890932921766654,
+      0.6601862721875292,
+      0.0025786936152394735,
+      0.0025595557255833705,
+      0.00010895831383215609,
+      0.0014783549639686506,
+      0.033521381826431884,
+      0.0010224410632567295,
+      0.0031029626232867346,
+      0.0021290580887308097,
+      8.423462387527294e-05,
+      0.000556100423389096,
+      0.0014405938798334806,
+      0.001811817404640702,
+      0.01096256439612965,
+      0.00019118780803611932,
+      0.0002001098425620178,
+      0.008469131597826564,
+      0.0018856217137249427,
+      0.2424000577644698
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 8
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Stockholm in the 1970's. A nostalgic and critical reflection on the demolition of the old Klara district, the heart of Stockholm, as a result of the implementation of the Norrmalm-regulation - part of the renewal of the city architecture of the central parts of the capital."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.0035054375983380914,
+      0.0014694809986121823,
+      0.003143111426193012,
+      0.00199073530108438,
+      0.004136880877216589,
+      0.019098296478665042,
+      0.007418570480031614,
+      0.699772224572345,
+      0.09053200588705172,
+      0.008266345143938309,
+      0.0013421178861614267,
+      0.000623016965698607,
+      0.004684545439534585,
+      0.003408744908505687,
+      0.006794754254404531,
+      0.0018358977394299693,
+      0.0038635953408681077,
+      0.0011680678613481454,
+      0.003421842753603802,
+      0.0022935894607375253,
+      0.0032067056604456285,
+      0.11754386466701508,
+      0.0009523689476031313,
+      0.002391668357171329,
+      0.004529684678213637,
+      0.0019411508702191986,
+      0.0006652954455624089
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.00142537006294385,
+      0.000284475759282244,
+      0.0010115719766198687,
+      0.0010368893382842054,
+      0.001028877457912605,
+      0.00831662451419062,
+      0.003896362939464541,
+      0.8346268624352711,
+      0.042380177568208034,
+      0.005331755893487461,
+      0.0002504997038108247,
+      0.0002182019761200398,
+      0.0023119115931381565,
+      0.000721254396367396,
+      0.001615379333557489,
+      0.0003402011928244023,
+      0.0012053211007625173,
+      0.00029899587699368094,
+      0.000519557219263609,
+      0.00035511042297095487,
+      0.0006334242526014612,
+      0.08860751136170143,
+      0.0001900905847881136,
+      0.0008324799718443738,
+      0.0014904816954423453,
+      0.0006985627791085507,
+      0.0003720485930402362
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 7
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Pete Henke, a violent sharpshooter, comes to town and immediately starts stirring up trouble. The town's newspaper editor, Jefferson Drum, challenges Henke to a fistfight in the saloon. Drum says if he wins the fight Henke has to leave town. Drum takes a beating in the first round, but knocks Henke down in the second. In the third round, Henke throws something into Drum's eyes, blinding him, and, so, wins the bout. The saloon hostess who passed the blinding substance to Henke makes a play for Drum but he rejects her. She later is seen by Drum and the town's sheriff dancing at Henke's medicine show. Drum again tells Henke to leave town. Henke challenges him to another fight. Drum turns him down and doubles over Henke with a stomach punch."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 26,
+     "probabilities": [
+      0.0128432641158222,
+      0.005851759041371003,
+      0.008226673194116482,
+      0.005221680738163164,
+      0.0005971942118101564,
+      0.09305556746046342,
+      0.003743175618351608,
+      0.012982294553828296,
+      0.3132675929237917,
+      0.011637575375153711,
+      0.0017358137115387284,
+      0.002261768991638902,
+      0.0006619039857287396,
+      0.014528760024774658,
+      0.0009539795522159707,
+      0.00253968915317113,
+      0.0031391625972693816,
+      0.0005146331352403663,
+      0.0051771004422575834,
+      0.013569765104764443,
+      0.0013962196216289972,
+      0.04895368869390101,
+      0.002178209470319602,
+      0.0004492842402194697,
+      0.011775464976945435,
+      0.0007539370839127314,
+      0.4219838419815981
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 26,
+     "probabilities": [
+      0.013144616818639607,
+      0.0018351940906073591,
+      0.0025797497550674596,
+      0.003876852615628724,
+      9.39408064041392e-05,
+      0.009369657913862893,
+      0.0005624935525932422,
+      0.0020265745210299732,
+      0.10505248095043858,
+      0.00671761174590354,
+      0.0002826335234650365,
+      0.0012268271490833717,
+      0.00030020315192868754,
+      0.0038463547809288305,
+      0.0008020322353344708,
+      0.0010488650939938654,
+      0.0015793803823039476,
+      0.0004469443253232077,
+      0.00293900922848726,
+      0.001938699081796794,
+      0.000511516106113216,
+      0.030468307589238745,
+      0.0007574560352623802,
+      0.00016919459285652985,
+      0.0019334462147419522,
+      0.00041485048005224587,
+      0.8060751072589138
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 26
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "An exploration of the many difficulties and internal struggles adolescents face during their high school years. Inspired by the cult play, \"Dog Sees God: Confessions of a Teenage Blockhead\" by Bert V. Royal, this documentary sits down with students, parents, psychologists, and others to discuss the age-old question, \"Who am I?\""
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.003191985748818468,
+      0.0007984685325277475,
+      0.003982237125813289,
+      0.0040621032874530736,
+      0.00416869424041878,
+      0.05135325482145909,
+      0.0012884504796167745,
+      0.3552035676631685,
+      0.24848546011934855,
+      0.012491670818028204,
+      0.002322056984032061,
+      0.0004873537768998131,
+      0.0007183638165153311,
+      0.016994368518496568,
+      0.001890532506098736,
+      0.001703786085798216,
+      0.0013807107072091522,
+      0.0009612297148255937,
+      0.002136831115972661,
+      0.0030438279930069235,
+      0.0019661918137235833,
+      0.27395561079572045,
+      0.0006621104374623304,
+      0.0011803979185368157,
+      0.005148492451140003,
+      0.0002869847885990382,
+      0.0001352577393082608
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 7,
+     "probabilities": [
+      7.843644692433679e-05,
+      2.368274526752526e-05,
+      0.00026720874442345865,
+      0.00031180548323318883,
+      0.0055756583325557866,
+      0.0011123564941730648,
+      0.00011043696092650083,
+      0.8677991220295799,
+      0.017574104762660005,
+      0.0014791700996988268,
+      0.0002350521571598411,
+      0.0002135263730143879,
+      0.00013603142628888781,
+      0.0014474389914409776,
+      0.00018319018175927922,
+      0.0002230809945554896,
+      0.00012626160823742488,
+      0.0003593058985899273,
+      9.655076237389196e-05,
+      0.0001231377253662167,
+      3.174079064433771e-05,
+      0.1018583558974539,
+      4.4346656234823086e-05,
+      0.0002579267089861121,
+      0.00026781128489850145,
+      5.274290320070838e-05,
+      1.1517540352840142e-05
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 7
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Benjy Stone is the junior writer on the top rated variety/comedy show, in the mid 50s (the early years). Its a new medium and the rules were not fully established. Alan Swann, an Erol Flynn type actor with a drinking problem is to be that weeks guest star. When King Kaiser, the headliner wants to throw Swann off the show, Benjy makes a pitch to save his childhood hero, and is made Swann's babysitter. On top of this, a union boss doesn't care for Kaiser's parody of him and has plans to stop the show. It's 1950's New York and the age of live television. Benjy Stone is a young writer on a major comedy-variety show. He is assigned to chaperon that week's guest Alan Swann, a faded movie-star and renowned womanizer and drinker. Benjy's job is to try and keep Swann sober and above all else, make sure he shows up for the live broadcast on Saturday evening. Benjy and Swann have a number of adventures throughout the week, including dinner with Benjy's somewhat eccentric family. In the end, both learn lessons in life from the other. Benjy Stone reminisces about one week in his life back in 1954 - his favorite year - when television, especially live comedy shows, were just coming into their own as popular entertainment. He was then a junior writer on one such show, \"Comedy Cavalcade\", starring the demanding and egotistical Stan 'King' Kaiser. On this week, the guest star was Benjy's swashbuckling movie idol, Alan Swann, who was past his prime as a movie star. Swann had a reputation as a boozer and a carouser, which made King and the production staff nervous about him honoring his commitment to the show. As Swann's biggest booster among the staff, Benjy was assigned to be Swann's chaperon, making sure Swann not only met his commitments, but also behaved in a family friendly manner in public. Benjy's work monitoring Swann was not an easy one, but the two became a guide for the other in navigating through issues in their respective lives. For Benjy, these included how to deal with his overbearing Jewish mother, and how to win the heart of the show's production assistant, K.C. Downing, who only saw in Benjy a manic goof-ball. For Swann, these included how to act responsibly, especially with regard to a twelve year old daughter, Tess, who he had not seen in years. Swann's unpredictability, in part in combination with issues regarding the show's on-going 'Boss Hijack' sketch, which was based on real life mobster Karl Rojeck, led to an interesting end to the week for both Benjy and Swann."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 5,
+     "probabilities": [
+      0.0007561839780156827,
+      0.0006610828608464332,
+      0.0010665946601087811,
+      0.0033268846435494004,
+      0.0008007171022090272,
+      0.8791240168261141,
+      0.0004521949646979039,
+      0.020074414319125794,
+      0.03602806228562213,
+      0.013609439420471794,
+      0.00024394118722499488,
+      0.00018502927533270614,
+      0.00015047476571742046,
+      0.000966400880073812,
+      0.00435242234780322,
+      0.0009746473744888658,
+      0.0005238436312361947,
+      0.00040879455466951776,
+      0.010233074649601208,
+      0.0017311330322942707,
+      0.00020859678102178486,
+      0.014928260730953932,
+      0.0006767245200882741,
+      0.007640052059753203,
+      0.000741689187986836,
+      4.400249028195433e-05,
+      9.132147070433212e-05
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 5,
+     "probabilities": [
+      2.5550249071699542e-05,
+      3.537529657533224e-06,
+      5.476943404581966e-05,
+      0.0004204157158348702,
+      6.112183816305104e-05,
+      0.9961284517616282,
+      1.2311921028937048e-05,
+      2.830391858043988e-05,
+      0.0005218579264350143,
+      0.001626122455679848,
+      1.111091681378009e-05,
+      4.4008300267273844e-05,
+      9.335486409332045e-06,
+      7.426550366804788e-06,
+      0.00019955123720161278,
+      3.323689999355619e-05,
+      4.778735753582613e-05,
+      3.357208351593242e-05,
+      9.095385982697565e-05,
+      0.00011686681185108522,
+      1.1882450554724811e-05,
+      9.778112934695223e-06,
+      1.4439773714599771e-05,
+      0.0004714136153428655,
+      4.658683665015405e-06,
+      3.76213948748522e-06,
+      7.772970393100245e-06
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 5
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Michael Alland, a chemist and his assistant Martina, make a groundbreaking discovery. They manage to make butter directly from pasture grass without having to deal with either the cow or the use of dairy products. An industrialist attempts to seize the invention for himself. To do so he sends countless women to Alland to seduce him and steal the formula. But the attempts prove to be unsuccessful, for Alland has discovered he has feelings for his assistant."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 5,
+     "probabilities": [
+      0.030243302655024038,
+      0.03205429917033052,
+      0.035167565896290894,
+      0.006910054404365621,
+      0.0029766775659682498,
+      0.3383006832645288,
+      0.015251971448879093,
+      0.04233396155903195,
+      0.20575592651706062,
+      0.013411908690104576,
+      0.00954620384002922,
+      0.002293547455285854,
+      0.004765803214334981,
+      0.024839169082440396,
+      0.0018219186190494721,
+      0.004270020256360006,
+      0.009715924184747253,
+      0.00276645501432037,
+      0.01248741011449896,
+      0.014899952310805363,
+      0.04500149460528918,
+      0.09828421447768887,
+      0.0041386983220694255,
+      0.0036521310327912162,
+      0.02683633202066103,
+      0.003982373938050256,
+      0.008292000339991364
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 21,
+     "probabilities": [
+      0.00787324191342866,
+      0.028588847721676636,
+      0.013056133759426365,
+      0.00201752647821351,
+      0.0009960267360385859,
+      0.2329562465529444,
+      0.0023317129681756036,
+      0.003034113544340908,
+      0.26149774362548284,
+      0.008195826710140916,
+      0.0035094428518643956,
+      0.0011796068609994618,
+      0.003657186853939875,
+      0.01662015426925027,
+      0.0007812044211048267,
+      0.0013154772877874985,
+      0.00163474679834901,
+      0.0019923114165252367,
+      0.007463047238766955,
+      0.004108894995888258,
+      0.015304962653583592,
+      0.3460098670425962,
+      0.003366477917745451,
+      0.0024365481397057324,
+      0.024423714526356673,
+      0.002480230072792011,
+      0.0031687066428761593
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 21
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "A young couple's dream of starting a family shatters as they descend into the depths of paranoia and must struggle to survive an evil presence that wants nothing more than their very own lives."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.01638152860004659,
+      0.0014214894861233902,
+      0.00740326295968936,
+      0.0050837092420090175,
+      0.0007746740301368731,
+      0.09962428325582683,
+      0.0025821310078182466,
+      0.10253302074832926,
+      0.4093385123013334,
+      0.0050644039860441,
+      0.004320643070079086,
+      0.0004927475725379593,
+      0.0010434680793148087,
+      0.16463699102383272,
+      0.00032444605925617407,
+      0.001426270949817403,
+      0.0016611453702939437,
+      0.00014082449738009274,
+      0.007273416467129843,
+      0.012422292295805885,
+      0.008175514025762852,
+      0.09909682534078564,
+      0.0004727729809032469,
+      0.0003704228160650171,
+      0.046463033924274054,
+      0.00031252625283742014,
+      0.0011596436565654965
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.005308901274934526,
+      0.0008900330475774725,
+      0.0035898194139991255,
+      0.0036611841176366457,
+      0.0004268138972896885,
+      0.04091892036257681,
+      0.001831389691679374,
+      0.020559527343919085,
+      0.5200839704174853,
+      0.006614246624397427,
+      0.003116814668136235,
+      0.0009283714414890424,
+      0.0016824426490242433,
+      0.14475951674824114,
+      0.00023176827480632313,
+      0.003897460097440672,
+      0.0008722014545746831,
+      0.0002162244532046945,
+      0.021639798468769962,
+      0.017877081255002442,
+      0.008870949289030816,
+      0.16711235605241964,
+      0.0004913165163132698,
+      0.00035987786829205917,
+      0.023058176238488572,
+      0.0005793468095239796,
+      0.0004214915237466231
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 8
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "A company of actors arrive at a castle deep in the Irish countryside and set into motion the story of Shakespeare's Hamlet. The lives of the actors and their characters intertwine as Prince Hamlet confronts the ghost of his father and seeks revenge on the treacherous Claudius, his uncle and newly appointed king. Hamlet's pursuit of vengeance scorches the lives of everyone inside the castle walls and lays bare the many contradictions and ambiguities of human existence. At the play's end, seven days have passed and the actors emerge, leaving the castle and characters behind."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.018686113896420758,
+      0.001423611121358393,
+      0.018518990399263906,
+      0.013592088171264416,
+      0.0014090439148361697,
+      0.11657358459566196,
+      0.009180398689912314,
+      0.08115173735523071,
+      0.42744603272388626,
+      0.0074021163145148,
+      0.02881466291453175,
+      0.000384901988070621,
+      0.00331961981576984,
+      0.08009146419283489,
+      0.0013603254684937352,
+      0.003460739820731832,
+      0.004482856677181521,
+      0.00039431345461208764,
+      0.004053746923486009,
+      0.010133412273357813,
+      0.00855502564829161,
+      0.1404117169121318,
+      0.0005377291487651,
+      0.0006831131991171547,
+      0.014700475457026537,
+      0.0006543710034309963,
+      0.0025778079198177676
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.01610365993767178,
+      0.0004616508521587558,
+      0.006386954560505036,
+      0.01308521673833563,
+      0.0006014486274619698,
+      0.10779648458900623,
+      0.009455912080433176,
+      0.016088952195610812,
+      0.5844509362150809,
+      0.002431860071034382,
+      0.05529353556803982,
+      0.0004731779209532573,
+      0.0029227983478383067,
+      0.013662839897912732,
+      0.0009670448728447788,
+      0.003700105664029655,
+      0.003866720960808436,
+      0.0002393450960683249,
+      0.0012925951091618396,
+      0.008417447580594322,
+      0.006155187404620742,
+      0.13717201074551819,
+      0.0002024083636359893,
+      0.00027222146375650727,
+      0.006486077731205884,
+      0.0004625607221885926,
+      0.0015508466835240946
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 8
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Noom an extraterrestrial came from the dark side of the Moon to earth looking for a beautiful woman to have a hybrid child with and he will no stop for nothing even killing and causing chaos. Joss who believes that extraterrestrials are living Among Us will try to stop him before is late."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 13,
+     "probabilities": [
+      0.03725094787198884,
+      0.0025243769601416425,
+      0.02491727925213233,
+      0.007140487418599888,
+      0.0004376559477906794,
+      0.12055025871817074,
+      0.004146910018335437,
+      0.05229339355071678,
+      0.245512874662427,
+      0.006195648912712751,
+      0.008147585929149255,
+      0.00013430779482381038,
+      0.00044478485114280683,
+      0.27544777667226367,
+      0.0010942634743428003,
+      0.0007962382086139628,
+      0.0031064056913549225,
+      0.00016738363279565825,
+      0.0011075672332788093,
+      0.010567440319948468,
+      0.06926958710609636,
+      0.08405607536909318,
+      0.00038067566258080947,
+      0.00034263342162858964,
+      0.03585678103382783,
+      0.0003184623298437698,
+      0.007792197956198458
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 13,
+     "probabilities": [
+      0.03499361693712428,
+      0.002487349212010485,
+      0.08261013919650684,
+      0.00418236528143227,
+      0.00039710104742934297,
+      0.012903008259701776,
+      0.004054855544765573,
+      0.0017272003121823719,
+      0.046656997116435533,
+      0.003719786874696379,
+      0.010345281821477375,
+      0.0003347938931969747,
+      0.0003645037008827827,
+      0.6048225519740861,
+      0.0021811070854534584,
+      0.0006875585936564217,
+      0.0031882142168886594,
+      0.0002862367361654101,
+      0.00025062929212273707,
+      0.003249838972743651,
+      0.11731216365941954,
+      0.04344645700692524,
+      0.0006204601557901773,
+      0.0003236861460796995,
+      0.010602599487340639,
+      0.0006768087706957513,
+      0.0075746887047906785
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 13
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "A beautiful brunette is kidnapped the day after her graduation by a shady business associate of her uncle's. The abductor demands the evidence his colleague has amassed that could lead to his prosecution and conviction. While he waits for the material, he binds, gags and fondles his shapely captive. As the captive fights the tears welling in her eyes, she wonders if her older relative doesn't have a trick up his sleeve. In other plot line, another busty babe plots with a ruthless crook to nab her sexy sister. Little does she realize, but her \"partner\" plans to take her captive as well."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.061508781739399665,
+      0.07774305553744494,
+      0.08800564544044638,
+      0.0072268265760842615,
+      0.0015245017358874087,
+      0.14696854287418304,
+      0.023837789461444853,
+      0.002842401614267772,
+      0.3223884553402566,
+      0.011295785534255625,
+      0.006348716418544805,
+      0.0005476129864235744,
+      0.0025872104516007155,
+      0.053532436096362816,
+      0.0008760663568355988,
+      0.006178465001471788,
+      0.009069540379278724,
+      0.0008232205300283952,
+      0.0013211783982884707,
+      0.011460987510941652,
+      0.008792905122400175,
+      0.025227776706560744,
+      0.0009960989826517904,
+      0.000624441095942778,
+      0.10548590538718833,
+      0.001285504172391981,
+      0.021500148549416183
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.08538088863372148,
+      0.06573509214521485,
+      0.06511360154082722,
+      0.004568946564194963,
+      0.0012280463195234999,
+      0.09539413552162462,
+      0.012883335316313374,
+      0.00025736436466195357,
+      0.41761890541845587,
+      0.022500372124353074,
+      0.005430270821986539,
+      0.0005693927131628216,
+      0.0018933928491354625,
+      0.012321862837246575,
+      0.002221278062761842,
+      0.005850887914904975,
+      0.006354086368826584,
+      0.0011330486149044167,
+      0.001276900631064226,
+      0.0018638449029616062,
+      0.0054943455956163465,
+      0.022221127514411868,
+      0.00229638275911281,
+      0.0007535156036523164,
+      0.1545252006018721,
+      0.0006094015673725557,
+      0.00450437269211594
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 8
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Young Italian flower vendor Tony Gillardi ( Richard Barthelmess ), makes a poor living when compared by his mother with her favorite, his brother Carlo. Only his little Irish sweetheart, Mollie O'Connor ( Dorothy Gish ) believes in him. Carlo's source of income, however, is not within the law, for he is dominated by gangster Nick Di Silva, who operates a Chinese theater as a front. Rather than hurt his mother's feelings, Tony takes the blame for a robbery Nick and Carlo committed. After serving a term \"up the river,\" Tony finds out that Carlo is still under Nick's domination and sets out to get him. In a fight between Nick and Tony, Nick accidentally shoots Mamma Gillardi. Nick falls to his death while escaping, the mother recovers, and Tony and Mollie marry. While making a trip around the Battery to Coney Island with Mollie, Tony comes to see, once again, the beauty of his city."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.02313153263596476,
+      0.0074723194897137486,
+      0.01109388221061433,
+      0.0024213993839622815,
+      0.0013595183830897568,
+      0.37351477044386705,
+      0.008950729404478178,
+      0.022973258907762823,
+      0.4566460771522371,
+      0.003060111522156585,
+      0.001150239619551979,
+      0.000260176734283519,
+      0.0009732068944065511,
+      0.014344842585235097,
+      0.0021514388966465047,
+      0.007023117219448121,
+      0.0017828032836624283,
+      0.0002907423890515872,
+      0.0014355016137878659,
+      0.011918044797258076,
+      0.0009234223087642922,
+      0.018514538247873972,
+      0.0005967813221447505,
+      0.001442940224768174,
+      0.016689714323455472,
+      0.0009619612601488445,
+      0.008916928745668646
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.04761637948155538,
+      0.00618386928436295,
+      0.018581787749499666,
+      0.0018485772912025737,
+      0.0009939067513194924,
+      0.24196135096610458,
+      0.002837093374067856,
+      0.019817883956651232,
+      0.61421828586727,
+      0.0009058889851989208,
+      0.0005537196665464359,
+      0.0003851480802706202,
+      0.001001093987076099,
+      0.0025893179034331957,
+      0.0030062379431466148,
+      0.008869766119961642,
+      0.0004522136747907387,
+      0.00022154821780983182,
+      0.0005487670111129923,
+      0.007277524069024809,
+      0.0006888681366956936,
+      0.013551788073286617,
+      0.001033468457830039,
+      0.0005537624905242583,
+      0.0017953855348188169,
+      0.000798962744605105,
+      0.0017074041818339175
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 8
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Mortimer Tate rode out the end of the world. Go-Go Girls of the Apocalypse begins , when he emerges into a bizarre landscape filled with hollow reminders of an America that no longer exists. What little civilization remains revolves around Joey Armageddon's Sassy A-Go-Go strip clubs, where the beer is cold, the lap dancers are hot, and the bouncers are armed with M16s. Accompanied by his cowboy sidekick Buffalo Bill, the gorgeous stripper Sheila, and the mountain man Ted, Mortimer journeys to the lost city of Atlanta -- and a showdown that might determine the fate of humanity."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 21,
+     "probabilities": [
+      0.010356966297066608,
+      0.014139355220558609,
+      0.038852269561305434,
+      0.008068178185159735,
+      0.004788322844195375,
+      0.0903860221064046,
+      0.009503483488712081,
+      0.22216752114481064,
+      0.11931526106758632,
+      0.014620039601177472,
+      0.025329080267064367,
+      0.0013378780523667095,
+      0.011494100438049333,
+      0.06470017542229041,
+      0.009793176131001608,
+      0.008992300712757598,
+      0.009096316660721231,
+      0.003098739536157789,
+      0.02271830851249284,
+      0.010670616757946361,
+      0.026430359183043192,
+      0.22661840498800984,
+      0.008006379640426579,
+      0.002907465314608563,
+      0.029686627646941084,
+      0.0036367746756992055,
+      0.0032858765434461324
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.004733610855582889,
+      0.012731593360465726,
+      0.017169360888718923,
+      0.0025599569388570667,
+      0.0027699525205757553,
+      0.042829791602374795,
+      0.004171563576992488,
+      0.5205280862560562,
+      0.04886844578814358,
+      0.0097861569033455,
+      0.021826590476144835,
+      0.0009619193833044128,
+      0.013158481551111073,
+      0.03596640706520923,
+      0.0183128404916339,
+      0.010171410462563459,
+      0.009136852069038989,
+      0.002781803108594391,
+      0.02000464113010212,
+      0.00950721600823406,
+      0.03602066048786306,
+      0.1103483471894815,
+      0.004569156790714859,
+      0.001398724916232266,
+      0.03049856027064593,
+      0.002043222265506714,
+      0.007144647642506413
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 7
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "This wonderful and beautifully colored picture is difficult of description, and one must sec it in order to appreciate it. We note with wonder the ingenuity of the photographer who has here made full-grown men appear like midgets measuring not more than six inches in height. We first see these tiny people as they stand on a table performing many interesting tricks under the direction of the Mistress of Ceremonies, Miss Hold, who exercises a sort of magician-like power over them, making them appear and disappear at will. In the first picture we see Miss Hold on the stage with two men, who place a table in the foreground and hand her a magician's outfit. She now takes a niece of paper, which she rolls up, then cuts it in half, and out of each half she forms a cone, from which emerge tiny acrobats. These cunning fellows amuse us with many wonderful stunts, and when they have been restored to their respective cones, a number of wee ballet girls, who execute some very pretty figures, take their place. A man, disguised as a woman, next appears, and when he hops up on Miss Hold's finger we all look on aghast, as we know him to he of ordinary size, and to see him there poised on the woman's finger she holds it extended seems to us little short of marvelous. A clown then jumps up and proceeds with all kinds of funny antics. Three steins are now placed on the table, and when the lids are removed out pop three little clowns. These funny fellows amuse us with adroit pantomime, and when they have finished each returns to his respective stein, the lid of which is tightly closed down by Miss Hold. In the last scene we see Miss Hold carrying a basket containing flowers, which she throws in a heap on the floor, when all at once out of each blossom steps one of the characters who has taken part in the performance, but now, instead of midgets, we see women and men of ordinary size. They group themselves around Miss Hold and form a beautiful picture as the film closes."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 21,
+     "probabilities": [
+      0.004771255434028745,
+      0.017120601689129208,
+      0.00437734559927701,
+      0.007816947013644554,
+      0.0019800613241188203,
+      0.1714258504839342,
+      0.002776820708045095,
+      0.03177251686448632,
+      0.08423530964699502,
+      0.028385944046015823,
+      0.010047713341719512,
+      0.0014545222968356875,
+      0.0018374166580137426,
+      0.00884472639839862,
+      0.00774198543716752,
+      0.0022755135368020423,
+      0.003547313139441445,
+      0.0007516328765666337,
+      0.007358273483621461,
+      0.005694660007037972,
+      0.0020250533214790025,
+      0.5813334001622563,
+      0.0015563693422648755,
+      0.0030392803974031513,
+      0.004036771426031924,
+      0.0012250100688110332,
+      0.002567705296477068
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 21,
+     "probabilities": [
+      0.003586382328596234,
+      0.00335131113054151,
+      0.0002568715842832529,
+      0.0010069167347871181,
+      0.0006838434110735837,
+      0.05821437352944566,
+      0.0016051732237026216,
+      0.006483648810461572,
+      0.019040858693114185,
+      0.01456405340454238,
+      0.006139768097728428,
+      0.0005631672580997475,
+      0.0009124105287925735,
+      0.0007848189067941122,
+      0.002995416077120798,
+      0.00035124868546751047,
+      0.0016075607839813636,
+      0.00021311015128753577,
+      0.000597699979222633,
+      0.0006537542155051098,
+      0.00041711223156994586,
+      0.8708229020228908,
+      0.00017598127441527246,
+      0.0012219323352161593,
+      0.0005451875442482365,
+      0.0005687886678176386,
+      0.00263570838929406
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 21
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Kanab, Utah, a small, western town founded by Mormon polygamists, is now the scene of a city divided. The people are split between a religious majority, struggling to assert its conservative identity, and a vocal minority determined to make their home in a community afraid of change. Fearing a threat to their way of life, the mayor and city council unanimously approve a resolution. This defines the kind of families they would like to see move in as 'one man, one woman' with a 'full quiver' of children. Natural Family Values is an intimate portrait of a community at odds with itself, and what happens when democracy and theocracy clash."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.0042702779809493325,
+      0.0006442810990568092,
+      0.0012275899790302192,
+      0.0014642247422197968,
+      0.002300780566390359,
+      0.02792761771140899,
+      0.003824115137408204,
+      0.661635535823923,
+      0.17948933832152258,
+      0.004820698849202153,
+      0.0014884896828293327,
+      0.00020211923154064064,
+      0.0024396681850632146,
+      0.0017608403835484624,
+      0.0004930423323995859,
+      0.0013932834835751692,
+      0.0016080909747213496,
+      0.0008185718703919141,
+      0.0047938019623398045,
+      0.0070267633167712396,
+      0.0046836913762810135,
+      0.07671145323508217,
+      0.00027512430182262203,
+      0.0007831891926265373,
+      0.00588481786129821,
+      0.0007071872082444847,
+      0.0013254051903510192
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.0006585466510624319,
+      0.00016233741967532165,
+      0.0001450126921425221,
+      0.000376016581860474,
+      0.0009368290902960298,
+      0.00560439542544487,
+      0.0008481154988344162,
+      0.922829421354754,
+      0.023343926526396722,
+      0.0027019317536786627,
+      0.00017180607704156485,
+      5.505934031431512e-05,
+      0.0006930312093432466,
+      0.00020576498502547716,
+      6.383576878555414e-05,
+      0.0003480339276700705,
+      0.0006914973216433792,
+      0.00024300445346001444,
+      0.0026484254286174677,
+      0.0029659935641795764,
+      0.0011289533439682125,
+      0.0311701644117277,
+      3.892985487267157e-05,
+      0.0001513252436848946,
+      0.0009715767390415655,
+      0.00024818331798441605,
+      0.0005978820184944912
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 7
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "A slow, decisive handwriting, which becomes fast, furious, angry; thus - REBUS - receives and attacks the spectator, it accompanies him in an unknown world of images and sounds, played out between the known and the unknown, almost to amaze and frighten, to divide who knows from who does not know, who wants to know from who wants to escape. The predictable element is the unpredictability and its playing out everything, or almost, for the autonomy of the significants and for the defence of their free and potential transformation in the natural flow of time. Every given signification is destined to perish!"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 21,
+     "probabilities": [
+      0.015689789369164844,
+      0.009219156228394847,
+      0.024936580028082786,
+      0.01864575779017213,
+      0.0024005285848142043,
+      0.09288653100840931,
+      0.011240432710333934,
+      0.15921606648762515,
+      0.17956499622509015,
+      0.0147676265113146,
+      0.008916049037079772,
+      0.002293078135266218,
+      0.002368396656433118,
+      0.014309295290043118,
+      0.0028179639908525534,
+      0.003211611053896099,
+      0.00587614848091719,
+      0.0008139360240989509,
+      0.005121171385348076,
+      0.014852924152790992,
+      0.020130395789184418,
+      0.3586305653244536,
+      0.004191546512266768,
+      0.0008691236157582329,
+      0.021057570683571804,
+      0.0016448458109609237,
+      0.004327913113674232
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 21,
+     "probabilities": [
+      0.0057522721669617805,
+      0.01981992856971603,
+      0.0910050594813746,
+      0.016932105123716908,
+      0.0029278742447074128,
+      0.033251009794870764,
+      0.01808996800280154,
+      0.23346541036496038,
+      0.09612600079388924,
+      0.0100055688100368,
+      0.018883072793677024,
+      0.0031191152745088354,
+      0.0040944219387825335,
+      0.0016808634578563814,
+      0.002349247177471185,
+      0.004915065297759445,
+      0.0047573927415159355,
+      0.0006502445910430459,
+      0.0039418054209500045,
+      0.012949623080329088,
+      0.012230353724142672,
+      0.3712889352070985,
+      0.009682050169209843,
+      0.0005075075593278215,
+      0.014832408727591591,
+      0.0023377256938460407,
+      0.004404969791854638
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 7
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Wilson came up with the original idea and will write the screenplay. Details of the project are being kept secret, but it is known to be sci-fi survival story that has shades of Jack London, the author behind such tales as White Fang and The Call of the Wild."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.012392716752865678,
+      0.007412532715955936,
+      0.026796885798027963,
+      0.03384385282052108,
+      0.016445208466111708,
+      0.09235898689400249,
+      0.011899577195996894,
+      0.31953684029703017,
+      0.09712711674965047,
+      0.009645267007081147,
+      0.01195388418040093,
+      0.001439809571288746,
+      0.007453837544555476,
+      0.0589574508259068,
+      0.005442226503580476,
+      0.007318001971966904,
+      0.011372721446916497,
+      0.0019522913568027908,
+      0.0049900241917049375,
+      0.005063577719319466,
+      0.042715701785926104,
+      0.15331157866272188,
+      0.0034183092597891403,
+      0.009499992412183328,
+      0.0401790076636021,
+      0.002046164155641329,
+      0.0054264360504509045
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 20,
+     "probabilities": [
+      0.014522121688211329,
+      0.01160003774684641,
+      0.04040408217748456,
+      0.10676434597099006,
+      0.08482057283610467,
+      0.007346153017401119,
+      0.02661809833715472,
+      0.07655060545080082,
+      0.10956191032313979,
+      0.005720913800691108,
+      0.041939174898097335,
+      0.002346616786493693,
+      0.028302695594534178,
+      0.03413091847573486,
+      0.0029838844361330732,
+      0.012675182997799067,
+      0.030276743162228444,
+      0.0026496524976903652,
+      0.0016259370299571867,
+      0.004373658861645691,
+      0.17911698411275145,
+      0.09057591978916574,
+      0.004578628834404832,
+      0.00761164565128862,
+      0.04847094626956731,
+      0.004063335229851282,
+      0.020369234023832148
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 20
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Ian Gellward's quiet life is turned upside down when he meets a charismatic doctor called Eva Dennis. To help him overcome his chronic shyness and attempt to win the girl is his best friend, Martin. Will love be all that Ian has read about?"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.008345763397938959,
+      0.0033422283904070023,
+      0.003911210513995688,
+      0.009204909826414209,
+      0.0012259913076050322,
+      0.37201676628070107,
+      0.0029716354907643413,
+      0.03670112851377532,
+      0.39237261970956916,
+      0.01845516414624761,
+      0.003506948868169331,
+      0.0009858244634384794,
+      0.00067642258243233,
+      0.027491991499837345,
+      0.0016379656885064198,
+      0.004035347341244579,
+      0.002898898183101907,
+      0.00024933085056826277,
+      0.0025535041664837663,
+      0.023152985607874637,
+      0.006423874033880654,
+      0.03164682264270993,
+      0.0010767640948825545,
+      0.0007087554952819362,
+      0.04060501407897193,
+      0.0009414914828608244,
+      0.0028606413423342583
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 5,
+     "probabilities": [
+      0.0032479002425871224,
+      0.004551281136528155,
+      0.0011281922208347481,
+      0.006472363016197422,
+      0.000931104609037232,
+      0.6795978856724125,
+      0.0010213402724910902,
+      0.002411705810889976,
+      0.17317805712024048,
+      0.017182117268746085,
+      0.001825760877408494,
+      0.0019841411689133274,
+      0.00041557812281590675,
+      0.003731176060163569,
+      0.00041242771053345086,
+      0.011680457825096977,
+      0.0020813604945071453,
+      0.0002705685994492251,
+      0.0009570856737185901,
+      0.05655942204128492,
+      0.0028259133539094796,
+      0.006753875000761073,
+      0.001204168438375482,
+      0.000430125291578751,
+      0.016532286816732876,
+      0.001295016011360631,
+      0.0013186891434251642
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 5
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Liam is a 12 year old with a big problem - himself. He's way too tall for his age and is always mistaken for an adult. Although this is a pain in the butt - because who wants to act like an adult? - there are some good things that come out of it. Like a trip to the moon! Unfortunately, the rocket ship he's on is off course and it's up to him to save the kids on board."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 5,
+     "probabilities": [
+      0.006072518206462831,
+      0.005942592689945704,
+      0.01244596259533332,
+      0.021197043385639408,
+      0.000585268242095401,
+      0.48311972200525344,
+      0.0020067895307066337,
+      0.052880727789497636,
+      0.22510185245988623,
+      0.04656592164031726,
+      0.004452732514501198,
+      0.00027307943420358527,
+      0.0003482804160080262,
+      0.03219270733241122,
+      0.0010427447824261722,
+      0.0019691542581597764,
+      0.0015630124946462165,
+      0.00015796360155485268,
+      0.004151904869397955,
+      0.008898069068933895,
+      0.00892707565880144,
+      0.06336680617365639,
+      0.0004876126429407386,
+      0.0008400084502230952,
+      0.013928541558728613,
+      0.00020785981969065012,
+      0.0012740483785816247
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 5,
+     "probabilities": [
+      0.0008730867182232586,
+      0.005317734958907237,
+      0.00516433748795559,
+      0.02361458942637989,
+      0.0004017400460053636,
+      0.8561012567230166,
+      0.0005584203836847476,
+      0.00536521936433997,
+      0.009366716684510609,
+      0.052442370049891635,
+      0.004305156575754708,
+      0.00022829504246971833,
+      0.00021763578875613545,
+      0.004071077126272892,
+      0.00018152477960071972,
+      0.0014420295833354763,
+      0.000578362270996596,
+      0.00012859210233348657,
+      0.0006329097228527941,
+      0.00041755745671943336,
+      0.0047729871881660715,
+      0.021116234028042222,
+      0.00014572601169783803,
+      0.0002870309522454006,
+      0.001834129234382052,
+      0.00019780655807928783,
+      0.00023747373538032432
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 5
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Dr. Joseph Rizzo and Prof. John Wyatt co-founded the Boston Retinal Implant Project. It's a Harvard/M.I.T. collaboration whose \"Bionic Eye\" technology is aimed at restoring sight to patients who suffer from degenerative blindness. They have invented a microelectronic retinal implant that restores vision to patients, particularly those with age-related macular degeneration and blindness."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.002709684905775883,
+      0.00265513656186793,
+      0.002952641092171496,
+      0.002251371706468344,
+      0.011743046069752088,
+      0.035867033223699586,
+      0.0037938045960853634,
+      0.6468652930854151,
+      0.08277903660286512,
+      0.007746659874614985,
+      0.0040235405739289815,
+      0.0014451917182241641,
+      0.005018409255187642,
+      0.015882977137977376,
+      0.0046984378086223945,
+      0.002739605223060594,
+      0.005275045352641432,
+      0.004823788904103135,
+      0.015348540572926426,
+      0.00824953041113845,
+      0.009009709667362501,
+      0.0920956372280194,
+      0.003997235973488819,
+      0.012644511001234501,
+      0.013077802920720442,
+      0.0012333598066157257,
+      0.0010729687260353864
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.005602769196780024,
+      0.005641296305020375,
+      0.0021476046865776793,
+      0.001996134244173835,
+      0.05959929922622527,
+      0.06482987319950537,
+      0.0038109565391723195,
+      0.46018479275067453,
+      0.01539766874996149,
+      0.012420818993505793,
+      0.005316046664844545,
+      0.00339505171799206,
+      0.01387208917676957,
+      0.01656386124327157,
+      0.002833276494491525,
+      0.0031427321376870255,
+      0.006342413969233812,
+      0.00916106335301979,
+      0.055001533395663764,
+      0.01394286802039776,
+      0.016812300313626356,
+      0.17943645205147618,
+      0.009023420344207585,
+      0.016554788545489446,
+      0.010516892398009388,
+      0.001830781012656539,
+      0.0046232152695661844
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 7
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "A man awakens, lying on a beach with an empty vodka bottle and no recollection of any past events. Struggling to recall any of his memories he stumbles up the beach and upon a house that holds a dark secret. By absorbing books by touch, he slowly knits his life together piece by piece but is not prepared for what awaits him."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 21,
+     "probabilities": [
+      0.010929019591726449,
+      0.007689318912071807,
+      0.005341188202677101,
+      0.0025591811307175355,
+      0.0024806084142610305,
+      0.07876736917994283,
+      0.004644137049678323,
+      0.02398182702051638,
+      0.30441961440604576,
+      0.00608530718945935,
+      0.010962824267426582,
+      0.0005626816917963148,
+      0.0012137490579560719,
+      0.09474428712849338,
+      0.0020697390058206683,
+      0.0012982902842655095,
+      0.004803760099422481,
+      0.0006544493019660908,
+      0.004325728606583089,
+      0.014302962201272404,
+      0.01224957615087454,
+      0.32597121362105924,
+      0.0010210882565005986,
+      0.0008045827839458495,
+      0.07618875289206717,
+      0.0010928863746780802,
+      0.0008358571787734775
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 21,
+     "probabilities": [
+      0.009681660867589112,
+      0.004505149368840008,
+      0.0016684534305239042,
+      0.0005120624968509117,
+      0.0020657313082070587,
+      0.0262273500907182,
+      0.0018799962437467588,
+      0.007784794358923009,
+      0.1854524886012264,
+      0.000888401270545672,
+      0.0063798758758390525,
+      0.0004332111542031063,
+      0.0005447153000656586,
+      0.034419024559278096,
+      0.0011905447840673718,
+      0.0006457458193520442,
+      0.0028339126774189413,
+      0.000430174870677333,
+      0.003185719269833296,
+      0.013939143369467237,
+      0.004121724648470288,
+      0.6482873338063071,
+      0.0005011534691402057,
+      0.0004230813859652803,
+      0.04075527022012307,
+      0.0009702726704791251,
+      0.00027300808214172163
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 21
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "The path of Paraguayan immigrants who drive to Asuncion and then arrive in Săo Paulo. They are rural workers, musicians, vendors and underemployed people. Two parallel worlds: the Guarani culture and the Brazilian adventure in Săo Paulo juxtaposed with Paraguayan songs and the Guarani language, spoken by the main characters."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.0026948237926361866,
+      0.0008675531321994752,
+      0.003693447173990151,
+      0.009039543423803463,
+      0.0037334476188991446,
+      0.057428572738607304,
+      0.003222144348130896,
+      0.635765636768705,
+      0.1472715738338455,
+      0.0074263942938816675,
+      0.004346159399177373,
+      0.0010595100573369562,
+      0.0023519790803297994,
+      0.00139680970996881,
+      0.008213846325687621,
+      0.004746933381301898,
+      0.0022315072479411535,
+      0.001428908760204843,
+      0.006104920939824977,
+      0.004325107354562955,
+      0.0028631655578340853,
+      0.08076367667807612,
+      0.0015493825440132069,
+      0.0029315130874137756,
+      0.0026454319273813446,
+      0.001536842883722956,
+      0.00036116794052586966
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.0015919157906534903,
+      0.0004340800936459749,
+      0.005975998920795069,
+      0.010877015835154725,
+      0.0018612533046809176,
+      0.0610594497685065,
+      0.001959481456784441,
+      0.7215611076110553,
+      0.07962066096657505,
+      0.00866999080673839,
+      0.003358216354807235,
+      0.000699680691702111,
+      0.0017130314642161974,
+      0.0003558567036909702,
+      0.007935821957522097,
+      0.002009709572201087,
+      0.001783480671464737,
+      0.0011878945447812922,
+      0.006567619102601149,
+      0.001323887555189139,
+      0.0012737421479954282,
+      0.07094835356091005,
+      0.0007028606407061293,
+      0.0030757589513176835,
+      0.0018336958367568244,
+      0.0012226070925322203,
+      0.00039682859701568044
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 7
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "A theater troupe's young, energetic leader has secured an old theater in which to produce his new production. The theater's elderly caretaker urges the group to leave at once. A vampire is awakened and discovers that one of the troupe is the reincarnation of the woman who he once loved."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 5,
+     "probabilities": [
+      0.005409674905415302,
+      0.003813336045297719,
+      0.004455042827116292,
+      0.004560863654684419,
+      0.00406540905194075,
+      0.26728681799057025,
+      0.004483508808406189,
+      0.17784316588470767,
+      0.20669335197034294,
+      0.009762029174933556,
+      0.007352624086901764,
+      0.0010351289129312375,
+      0.002471330458562344,
+      0.08497754869701975,
+      0.007937808414359163,
+      0.023244600048597797,
+      0.0028885256220129597,
+      0.0009495823947274483,
+      0.007316317148932649,
+      0.008296121150292088,
+      0.004844867166280149,
+      0.13167636506870295,
+      0.0008797169367395732,
+      0.0019588429238282024,
+      0.01479236685922444,
+      0.0017138609543817746,
+      0.00929119284308918
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 21,
+     "probabilities": [
+      0.0016057906974264813,
+      0.00250572770411141,
+      0.0024100121543478266,
+      0.0029294801704731538,
+      0.0035856630376626436,
+      0.13278149438277964,
+      0.0014830536255359338,
+      0.0892860023065941,
+      0.10247314961348429,
+      0.00488216568912389,
+      0.010218629009486134,
+      0.000714722135628267,
+      0.0016285154464927528,
+      0.08514868354182885,
+      0.001688791832202202,
+      0.03779447343084087,
+      0.0011460034795599918,
+      0.0008200152334362887,
+      0.005262973383145349,
+      0.0006616599822203385,
+      0.005912444746420928,
+      0.4914023943842074,
+      0.0003753004980139111,
+      0.0012877885909437726,
+      0.006600548646991585,
+      0.001626880834898526,
+      0.0037676354421435094
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 21
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Miss Susie Slagle's has opened her large home as a boarding house for medical students in Baltimore. The young men are encouraged by the compassionate Miss Susie as each struggles with the pressures of becoming doctors. One of her student boarders contracts diphtheria and dies, his loving fiancée, a student nurse bravely puts her grief aside to fulfill their dream of helping the poor in China. Finally the school year ends and Miss Susie wishes each of her boarders good success as she prepares once more to welcome a new group of eager young students."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.0031822966334190197,
+      0.00848726220983163,
+      0.003060577799764727,
+      0.004242929855235458,
+      0.0007627341232028126,
+      0.22672536837283672,
+      0.002441254401031807,
+      0.032425687436612435,
+      0.6030202405659558,
+      0.013420440378888126,
+      0.0034310654500575573,
+      0.00030283847055148806,
+      0.0005641203609462292,
+      0.022318069243865046,
+      0.0004606843413205034,
+      0.0018132241698769341,
+      0.003301469540010205,
+      0.0007666004627278636,
+      0.002909516135764807,
+      0.012445560012980262,
+      0.0013176367999588223,
+      0.038457305862767764,
+      0.00030774641503865055,
+      0.0007713922368766828,
+      0.0120321324045573,
+      0.0004325793156026093,
+      0.0005992670003180844
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.0006201278709776606,
+      0.007367338670087434,
+      0.0007220752856130057,
+      0.004027809965626346,
+      0.0010356812469199134,
+      0.2701554831815744,
+      0.0018954428734869269,
+      0.27784928977369805,
+      0.3132608906902674,
+      0.011532712831710595,
+      0.008064546552936912,
+      0.0008382867338917181,
+      0.001800539087419624,
+      0.03085136710011083,
+      0.0019566900559817987,
+      0.003291197045396779,
+      0.012784928399359794,
+      0.0024214529105957383,
+      0.008263106393319623,
+      0.0035025923838587466,
+      0.0027663264353844576,
+      0.025090608363309102,
+      0.00025906586002502824,
+      0.002126989231711541,
+      0.006059654861188826,
+      0.0009546097092115049,
+      0.0005011864863364245
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 8
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "The uncle of \"Bare-Fisted Gallagher\" dies and leaves the Eagle Mine in the San Rafael Valley. When he arrives to take possession of it, he meets and falls for pretty Jem Mason, a woman who dresses like a cowboy and, to show she's a good shot, shoots off his hat. Gallagher doesn't know that Aliso Pete, the owner of the general store, is also interested in Jem. He also doesn't know that Aliso Pete has another secret, one that could cost Gallagher his life."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 26,
+     "probabilities": [
+      0.00898291355555949,
+      0.012549948795052423,
+      0.022731577306556634,
+      0.006502490965216021,
+      0.00037065706746835673,
+      0.18984518920940469,
+      0.006542050490095342,
+      0.006043610088694404,
+      0.2874529373780328,
+      0.0048650557891960055,
+      0.00392126412521543,
+      0.00020443693408888817,
+      0.0006912540813039531,
+      0.020236136117759478,
+      0.0008308001394717765,
+      0.00451844059793408,
+      0.005191148949588045,
+      0.0002092517544913389,
+      0.0015594008509801857,
+      0.023285265494824438,
+      0.002709167978426206,
+      0.05300936050375189,
+      0.0005720132221381188,
+      0.00029185606807628187,
+      0.014085598416536565,
+      0.0005197889560281579,
+      0.32227838516410945
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 26,
+     "probabilities": [
+      0.0017753111112822888,
+      0.006714900945797935,
+      0.022376611002671014,
+      0.007378139927749352,
+      0.0003073471813055795,
+      0.04589433902461317,
+      0.007435458772211356,
+      0.0009243250872281488,
+      0.25277888444578306,
+      0.0013192537303069946,
+      0.008507757114305792,
+      0.0004958414907497906,
+      0.0008869037605240348,
+      0.008725530094335283,
+      0.001204529617817855,
+      0.008047954221223943,
+      0.008702999044072379,
+      0.0002491758533921639,
+      0.0017283191062197828,
+      0.05682678381518922,
+      0.004420469447415787,
+      0.02931436879134069,
+      0.0008360939221506471,
+      0.0003511450526670695,
+      0.0029851844021020605,
+      0.0007005319019367805,
+      0.5191118411356079
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 26
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "\"Hell is not populated by the uninvited. It is the province of the unwilling\". Edward Stewart is a stone cold killer at the top of his game. Paid handsomely for his \"wet work\", he uses real estate sales as a front to wreak fatal vengeance on cheating spouses. A chance encounter with a beautiful single mother soon wears away at the hardened edges of Edward's corrupt world. Jenny's patient influences lead Edward away from his life of murder, but Edward's partner in crime, Freddo Malatesta, proves to be more than Edward has bargained for. When Edward blows off a very important hit, Freddo takes matters into is own hands and sets out to finish the job. Edward faces the bleak truth that he cannot continue to exist in two opposing worlds. He must choose to risk his life or lose the new world that calls to him."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.08470921929671084,
+      0.004751182237209221,
+      0.010037468100417174,
+      0.0027080485710423326,
+      0.0032056703563149514,
+      0.15293762411566716,
+      0.01263975149943676,
+      0.031016790613426014,
+      0.33331801291602736,
+      0.0017705157120950013,
+      0.0036307298095649555,
+      0.0008844430760165944,
+      0.002325663724625282,
+      0.06406008233010099,
+      0.0006458002806105035,
+      0.0023980648055558634,
+      0.007181944734051412,
+      0.0007893218254051295,
+      0.0035315087503698995,
+      0.00741526117570607,
+      0.022147829383868108,
+      0.05031226348442607,
+      0.0008554488444813257,
+      0.0009538181080760942,
+      0.17952611454132789,
+      0.0015510085096302017,
+      0.014696413197834705
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 24,
+     "probabilities": [
+      0.25099153289333315,
+      0.004097113334254317,
+      0.005212628428097092,
+      0.0013729821913893072,
+      0.012191315465721629,
+      0.10647060788530668,
+      0.013939979217494958,
+      0.016347003384050603,
+      0.14212577742995908,
+      0.0009030150741986195,
+      0.0027519148656236577,
+      0.001205546194198235,
+      0.004487597038309239,
+      0.027343589093777532,
+      0.001376214904065247,
+      0.0024813699045285694,
+      0.00977262533519104,
+      0.0018677135138678734,
+      0.0041312860462522005,
+      0.0036567651551489876,
+      0.042780381714995964,
+      0.058367588141081346,
+      0.001535062838047056,
+      0.0010095585802812432,
+      0.27798644981760173,
+      0.0018784202692588652,
+      0.0037159612839659374
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Teams of three will solve problems while racing across deserts, over mountains and through rivers. Each week a new stage of the expedition will be revealed. After ten stunning legs of competition, one team will cross the finish line first to claim victory."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.040092847022836574,
+      0.0032833838262360123,
+      0.039515111640374405,
+      0.0035945548853118427,
+      0.002115585818960944,
+      0.039015296009208965,
+      0.006461614622021817,
+      0.4740222278551073,
+      0.048955331298675596,
+      0.01392064067221094,
+      0.0014926088492001706,
+      0.024453736736065622,
+      0.0028173477721557356,
+      0.009601051635742954,
+      0.0037700974618443185,
+      0.003899316012427703,
+      0.0037139818182748683,
+      0.003954452849419036,
+      0.16354965834926294,
+      0.0017227403906433768,
+      0.006666690130063033,
+      0.02494794811224226,
+      0.05583346496721175,
+      0.0037847245347132664,
+      0.00857545425736326,
+      0.002234456801644716,
+      0.008005675670781741
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 18,
+     "probabilities": [
+      0.1527150099031328,
+      0.0030003400155961903,
+      0.09970399104500499,
+      0.0012996267619954816,
+      0.00126526148712531,
+      0.026971202035890967,
+      0.0033732407143403638,
+      0.2021105563654527,
+      0.03811386279881085,
+      0.008447184650437435,
+      0.00042705531592858524,
+      0.07231402930234097,
+      0.00232086756767663,
+      0.003225671876466665,
+      0.0073114564665336555,
+      0.005250115770912209,
+      0.0015945215011524802,
+      0.009779281080963263,
+      0.21929303394851477,
+      0.00037090637351680354,
+      0.005349134377607791,
+      0.003435620763709276,
+      0.10830990310583223,
+      0.004108676480202622,
+      0.01152885204615728,
+      0.0020112954773249168,
+      0.00636930276737271
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 7
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Rose should have the perfect life. But after discovering that she was being cheated by her husband, what was emptiness becomes ruins. In an attempt to start over, to rediscover yourself and the people she loves, Rose ends up finding fuel in the most unusual source: The plot twists of the soup opera 'The Love of Catarina', the new national fever."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.010351403036727653,
+      0.0048355965347150415,
+      0.01010687713932005,
+      0.008705169522466654,
+      0.0028000713291312968,
+      0.2184782059617311,
+      0.009016950268137527,
+      0.06317327176774314,
+      0.44793306866089866,
+      0.012582564748201788,
+      0.0013470906377171686,
+      0.0005108215580815199,
+      0.0011126539434597287,
+      0.029038848341405892,
+      0.0025781462036157973,
+      0.008018833047619571,
+      0.00441994965282769,
+      0.0007161569407655836,
+      0.004969651706106168,
+      0.026063210806992053,
+      0.006519441433435544,
+      0.08478302230946325,
+      0.0012969670895195031,
+      0.0011581382583926475,
+      0.03584103176811716,
+      0.0009674301011418636,
+      0.0026754272322652975
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.0033227047125465024,
+      0.008792290509409249,
+      0.025797812690447435,
+      0.019003359049439436,
+      0.014210039822265298,
+      0.22652666717555067,
+      0.008467908828935044,
+      0.01665449761131299,
+      0.3408587195042149,
+      0.024493295025417555,
+      0.0005081251419819375,
+      0.0019374773726435108,
+      0.003419399414550113,
+      0.011541691198729007,
+      0.007350608270925004,
+      0.05572230296887964,
+      0.004923924483793627,
+      0.0034754256561054,
+      0.01124282304802723,
+      0.06292371371448865,
+      0.013856453118781769,
+      0.08377108820661834,
+      0.0024445221656201814,
+      0.001713442678722248,
+      0.04242432180860127,
+      0.003788579661579556,
+      0.0008288061604134763
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 8
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "The drama adapted according a real story. The citizen Zhuo Zhang and his wife Fengxian Luo paid off 1.05 million yuan huge debt to 36 creditors by 228 times through 10 years of struggle. The drama reproduces a story of integrity and tolerance in a simple way ."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.013784129808528686,
+      0.0015139388687438623,
+      0.008837004135219555,
+      0.001625623366373987,
+      0.0020564163102346125,
+      0.12762837932162582,
+      0.009996966526507207,
+      0.24538253392996665,
+      0.46343504878853636,
+      0.005254108280519424,
+      0.0063276218121392745,
+      0.0010726745915769348,
+      0.004945098364758973,
+      0.0036492392960987747,
+      0.0025170133828860772,
+      0.001354910018780009,
+      0.0024484323637847375,
+      0.0004952216040279204,
+      0.005816864880276256,
+      0.011799565097437842,
+      0.005958965367734017,
+      0.052082987213381414,
+      0.0010226360554089764,
+      0.0018029489602354668,
+      0.016572435286247182,
+      0.0007219708731090858,
+      0.0018972654958609532
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.0009104178954050632,
+      0.00011189482973162584,
+      0.0017845143473436496,
+      0.00011168374307457973,
+      0.00045620594852848205,
+      0.0018396431193056226,
+      0.0029506865906557557,
+      0.01598099822056438,
+      0.9523857271131564,
+      0.0005637640321093517,
+      0.004013433527813382,
+      0.0002618657966057986,
+      0.006821798863624256,
+      3.989728104759027e-05,
+      0.0004989868238701704,
+      0.00020623346798415062,
+      0.0003259866183746181,
+      6.380321472263766e-05,
+      0.0001231486791768066,
+      0.004389820044470128,
+      0.0009484997872364694,
+      0.002691538522553347,
+      0.00026751510378961266,
+      0.0001677137160211248,
+      0.001772275170043666,
+      0.00016954520052011796,
+      0.0001424023422712271
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 8
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "A witty comedy on sex - before, during, and after kids. Sex or something similar to sex, that practically has nothing to do with sex, and ends up being quite its opposite... something swift, clumsy, and even grotesque... always on the verge of failure. And not because the organs fall short (ops), but simply because a tiny little terrorist day after day scientifically pickaxes the couple's harmony and solidness, constantly and irreparably flaking the grounds of the couple's meaning and existence..."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 5,
+     "probabilities": [
+      0.006147865939099332,
+      0.016271888213110604,
+      0.0020488683447910236,
+      0.004578126921971845,
+      0.0013598804526364144,
+      0.3403661840282282,
+      0.0028024467701503637,
+      0.08031230026128719,
+      0.31438225071895654,
+      0.0056728095379206004,
+      0.002886711762718597,
+      0.0009142289657838313,
+      0.0008872381741993656,
+      0.011168898094069936,
+      0.00091863695312318,
+      0.0011283781217798917,
+      0.001429270484960146,
+      0.001074750435862609,
+      0.004981313073910335,
+      0.013871709958324213,
+      0.0038906570197474637,
+      0.16457091316574474,
+      0.0002844191799252319,
+      0.002507572941619438,
+      0.01502706469159414,
+      0.00023746309533796301,
+      0.0002781526931491353
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 5,
+     "probabilities": [
+      0.00022663207692766725,
+      0.1413326238856023,
+      8.691319447556586e-05,
+      0.0010106264702273375,
+      0.00021745817449430222,
+      0.6648648331155246,
+      0.00019760152100422397,
+      0.003636438167468711,
+      0.027009798333483756,
+      0.0014740333641559099,
+      0.0004230650932100834,
+      0.00020645023664693076,
+      0.00014910801397224804,
+      0.0002117589060746383,
+      0.00018916230963420853,
+      0.00016546666703766996,
+      0.0002530041407711291,
+      0.0006440495131672568,
+      0.000690367287874741,
+      0.002087759660644465,
+      0.00032301469740475753,
+      0.15234293138049634,
+      3.745914789821455e-05,
+      0.0007995815950546475,
+      0.00133123708407769,
+      4.4424297433803525e-05,
+      4.420166523679329e-05
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 5
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "The cast of CHIC (2015) is back for an all-new adventure. The Hope Youth team return to Knoxville, TN for CHIC 2018. It's very rare that any students get to go twice to CHIC but a handful of the original CHIC crew get the opportunity! The original crew and new friends travel to CHIC for the experience of a lifetime."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.007719173085410273,
+      0.0014811793047831885,
+      0.01756434748481841,
+      0.011351336117587468,
+      0.0018756678650536922,
+      0.08313060139788615,
+      0.00145925404100341,
+      0.6520635584872029,
+      0.04755014365524246,
+      0.017820385912392957,
+      0.0012121657240149219,
+      0.00103746889488871,
+      0.0017032327878642153,
+      0.02202619469734485,
+      0.00892106002232831,
+      0.002844041845697979,
+      0.0009243607709315878,
+      0.0010898283156611636,
+      0.04568405561803405,
+      0.001276283574702487,
+      0.014758177086820503,
+      0.04067300403556276,
+      0.006611826960092197,
+      0.005294943962836337,
+      0.0030328526738387764,
+      0.0003456562010523968,
+      0.0005491994769508896
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.013592912804746737,
+      0.0017308146316461954,
+      0.1334473324357356,
+      0.09170297595022463,
+      0.0022121714636757733,
+      0.06143447566882908,
+      0.002490047272852465,
+      0.4278636298277417,
+      0.013133326192338056,
+      0.014984330006699485,
+      0.0019400066796126806,
+      0.003507118671021921,
+      0.004598938372016299,
+      0.03912850128480638,
+      0.004367564454920972,
+      0.009307318910896749,
+      0.0008185067305545454,
+      0.0030606217368479216,
+      0.12333485714769826,
+      0.0007781029407718873,
+      0.03280480598500367,
+      0.002982142660727927,
+      0.004526655946937689,
+      0.0037040261358269573,
+      0.0010548362343527928,
+      0.0010084658016983146,
+      0.00048551405181525173
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 7
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "A GI WAS WASHED ASHORE ON AN ISLAND IN THE PACIFIC DURING WW2...ZORITA PERFORMED HER SNAKE ACT FOR HIM......HE WAS A TSLENT AGENT BROADWAY AND AFTER THE WAR BROUGHT HER BACK TO THE STATES AND SHE PERFORMED AT VARIOUS CLUBS, THE SNAKE EVENTUALLY STRANNGLES HER.............I was the still photographer on the set.....have photos...Howard Kiser"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.010931877217319447,
+      0.009138179580237955,
+      0.01049850211850811,
+      0.005448577207515204,
+      0.005328130724943831,
+      0.07989045321535654,
+      0.007462069077146431,
+      0.5099990377504967,
+      0.12316848153918845,
+      0.007974457969557588,
+      0.005017974027638691,
+      0.0022797629686743207,
+      0.0036076898717074357,
+      0.007371557652535285,
+      0.040567617887026786,
+      0.023617300980389416,
+      0.003904785929672789,
+      0.005565060874936964,
+      0.012901461592361337,
+      0.003637814503102809,
+      0.010590836753311838,
+      0.07256420641818447,
+      0.002670548553977522,
+      0.006597481865190799,
+      0.017503873435426306,
+      0.004838028683084446,
+      0.006924231602506609
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.01887380872150288,
+      0.026249076364824642,
+      0.02064871207608624,
+      0.01409255013828965,
+      0.005049178363309145,
+      0.04417564205021661,
+      0.019205226771285545,
+      0.07941961728107019,
+      0.3065974476556409,
+      0.003996007505185005,
+      0.017877258872915594,
+      0.008418083915455015,
+      0.00576212754195207,
+      0.01326324066060743,
+      0.051743963075466685,
+      0.12909156585013612,
+      0.0057920141620663316,
+      0.013711066117176797,
+      0.022365648385105547,
+      0.003709277624155343,
+      0.013080584338331919,
+      0.04016248796625455,
+      0.003885152828762923,
+      0.006552022859665949,
+      0.06833409425289284,
+      0.03318015180789465,
+      0.02476399281374932
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 8
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Kareem and Heather Bryant purchased a fixer-upper three years ago but were unaware of what they were getting themselves into. Every time they turn around, something else seems to fall apart in their kitchen. The Bryants are scared to replace anything with the fear of their kitchen crumbling down. Host Marc Bartolomeo will rescue the Bryants by picking up the pieces. They'll make a pass-through to make the kitchen appear bigger and will also add more storage space, all while making it very stylish and up-to-date."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 5,
+     "probabilities": [
+      0.009855876748165321,
+      0.02193366880283929,
+      0.010486715838813505,
+      0.007055937326306933,
+      0.0014229985427060873,
+      0.30674391887642827,
+      0.0038609564631716152,
+      0.0746781594824841,
+      0.12171104665216444,
+      0.020955620144496305,
+      0.005841021844343033,
+      0.0013500940005001197,
+      0.0011669824366570122,
+      0.027103939041214244,
+      0.0026937357171753647,
+      0.003002257720062541,
+      0.002233875930564278,
+      0.002290149393655343,
+      0.13042233635268197,
+      0.011090344238921213,
+      0.009518821130542294,
+      0.187762725977458,
+      0.002304545535470986,
+      0.008215958052061049,
+      0.021249368642048353,
+      0.0012706574641493111,
+      0.003778287644921139
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 18,
+     "probabilities": [
+      0.003209385592422938,
+      0.017745735796917933,
+      0.003850381876891609,
+      0.003075337013891162,
+      0.0005740792184803815,
+      0.22714303849976963,
+      0.0010508816577784743,
+      0.005860225035636248,
+      0.008722871061150255,
+      0.0052349723903179195,
+      0.0033393008821843294,
+      0.00041964436291449375,
+      0.0003428080141904422,
+      0.0014205465555033815,
+      0.000593224835825678,
+      0.00051140479872836,
+      0.00035654705537483896,
+      0.0019133800702498419,
+      0.6420925252471458,
+      0.0020066881408145132,
+      0.0062477519567314035,
+      0.04981481754851561,
+      0.0008890780493476639,
+      0.006489974816086028,
+      0.005837339491260757,
+      0.0005849080175236869,
+      0.0006731520143465806
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 18
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Kimberley, a former addict, addresses a group of recovering addicts as to why immediately after being released from a rehabilitation center she enrolls back. Through the series of intriguing personal stories, we realize that YES, Kimberley is drug free, but did she really heal the wound? Is she brave enough to face the last hurdle to her complete recovery?"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.016923283623695596,
+      0.008115632079773736,
+      0.013336741675631685,
+      0.00631726141443928,
+      0.0021672319482051237,
+      0.056965524837554085,
+      0.012392104949446685,
+      0.2910820591384797,
+      0.3485154606506274,
+      0.0127974252573086,
+      0.011319147098769664,
+      0.002327172001646119,
+      0.0041860226185046956,
+      0.02856468660858814,
+      0.006440450446323413,
+      0.002912916927199877,
+      0.01002042776002417,
+      0.0029083083069259574,
+      0.01691523661416439,
+      0.010907352424653714,
+      0.008082430253838166,
+      0.07141087070966837,
+      0.005182010677121802,
+      0.008427624534685475,
+      0.038269492194042354,
+      0.0018157854661568988,
+      0.0016973397825248008
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.009765601474914221,
+      0.00931199444519312,
+      0.009723830988529416,
+      0.004260293685607903,
+      0.0009055717530195773,
+      0.10415472171222798,
+      0.012415185315293745,
+      0.16056640619897578,
+      0.3984188501815686,
+      0.013178697788814121,
+      0.019277313735341865,
+      0.003923483224140546,
+      0.006200008952602949,
+      0.018335435120724917,
+      0.0060113435752425755,
+      0.001725488527217598,
+      0.02064043458050323,
+      0.004171758149799335,
+      0.018075278292284645,
+      0.0033552921915987696,
+      0.004792867782086217,
+      0.10141113759996237,
+      0.014397657789403231,
+      0.010383318774595455,
+      0.04187882859484391,
+      0.0015964742914406549,
+      0.001122725274067173
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 8
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "A coming of age story set in the urban backdrop of Orange County in the early 1990s. \"Dust of Life\" is a term labeled for kids who have been left abandoned on the streets. They live their lives as if life itself has already been taken away from them. The story follows a displaced juvenile named Johnny, who, as an infant, lost both of his parents to the treacherous ordeal of the Boat People Exodus. Growing up in America, Johnny quickly finds the harsh reality of assimilation when his choices are limited in his new world. His situation becomes more despairing when his relationship with the street kids around his neighborhood reveals itself as a perilous situation. As hope seem more distant than ever, through the help of a compassionate Catholic priest (Father Michael), Johnny is reminded to come to terms with his past in order to do the right thing in his present state."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.003353957001539191,
+      0.00044584907085990606,
+      0.0010399490858912406,
+      0.0017347813074682047,
+      0.0005624519615186513,
+      0.06046467129329626,
+      0.0018252725211201316,
+      0.1263101988738759,
+      0.681943478440086,
+      0.00378769352897249,
+      0.0009112391647789506,
+      2.3627557656991466e-05,
+      0.00030262636847521574,
+      0.016844775260147278,
+      0.00024462020902289174,
+      0.0005031221047226739,
+      0.0006355059984345951,
+      0.00012026570172288152,
+      0.001268601957247895,
+      0.0024645230403140305,
+      0.002486119234564753,
+      0.07913078416277254,
+      0.0001322406243406559,
+      0.0001936600592900008,
+      0.012845626461424385,
+      4.5791568679504755e-05,
+      0.00037856744177563074
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.00028143550247742004,
+      5.3715440922412835e-05,
+      0.00022765957961603397,
+      0.0007198791508907733,
+      0.001406085906228222,
+      0.00643419108781157,
+      0.0007539713969495791,
+      0.04809419956903578,
+      0.9061610591722775,
+      0.0016193961740960366,
+      0.0013115327791072557,
+      4.161976463105915e-05,
+      0.0004351756957091649,
+      0.0014503803309115948,
+      0.00018098628788078305,
+      0.0005434184806920516,
+      0.0004939379660212095,
+      0.0003310365792345813,
+      0.00033430153012806374,
+      0.00046993502348694394,
+      0.0017831920729383742,
+      0.023487521689684127,
+      4.406096239165023e-05,
+      9.5514879509131e-05,
+      0.0030360310380570968,
+      4.948083749942121e-05,
+      0.00016028110181218509
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 8
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Sarah Asproon returns to New Orleans to act as executrix of the estate of a millionaire whom she was once the mistress of. She must decide which one of his surviving family members will inherit his fortune. It's not a decision that she's willing to make alone...."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.01646031261944249,
+      0.005182862656984952,
+      0.007983863642745238,
+      0.0026529019832635557,
+      0.000827647211532212,
+      0.21969172361160919,
+      0.01193665933139069,
+      0.018970161383164298,
+      0.5027336613359243,
+      0.0027648051010919225,
+      0.00210243212476935,
+      0.001322052458503872,
+      0.0009360780453505053,
+      0.053861551591451035,
+      0.0015055868999129134,
+      0.0061583279732310816,
+      0.0061905617210904415,
+      0.0009112504142419108,
+      0.007053079268676346,
+      0.013166873762786083,
+      0.0023487259865021056,
+      0.015665888722602994,
+      0.0007927401383768676,
+      0.000965995148181712,
+      0.09157917465106091,
+      0.0007296997578811361,
+      0.005505382458229096
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.010185380961657638,
+      0.004013832777812489,
+      0.0037283351389258857,
+      0.0032668925297241447,
+      0.0007170702059997197,
+      0.12776415253689594,
+      0.011399257169104853,
+      0.015318030841098356,
+      0.5430692667838757,
+      0.0007273594582467571,
+      0.0019653698662913765,
+      0.001650755257679835,
+      0.0009826561821426705,
+      0.05315616473346687,
+      0.0013834829046689425,
+      0.0076941479367466864,
+      0.019078016634952604,
+      0.0028843313059449516,
+      0.04182634897590766,
+      0.004092469430657611,
+      0.001959456443683623,
+      0.02149470734153426,
+      0.0026325350554610837,
+      0.001015392871634789,
+      0.11329844990135979,
+      0.0007837245574760148,
+      0.003912412197049751
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 8
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Li'l Horrors is a puppet sitcom set in a spooky old house owned by Morbidda Bates, a retired horror movie actress. The series follows the (mis-) adventures of the Li'l Horrors as they squabble, tease and laugh, and generally have a monster of a time."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 5,
+     "probabilities": [
+      0.02111258763265066,
+      0.0062371296552939095,
+      0.023163599531751233,
+      0.02889127250710639,
+      0.004823664427908554,
+      0.2522715592385056,
+      0.006637006093739591,
+      0.07900855011780462,
+      0.19292552382691158,
+      0.036194305597852895,
+      0.015782505231651537,
+      0.0023248200871057653,
+      0.004628294775570049,
+      0.17280845927716385,
+      0.002352959718180548,
+      0.0044689486198242825,
+      0.00830472417266499,
+      0.0033370960690276754,
+      0.00791204058171883,
+      0.009722017444559666,
+      0.008477042452918302,
+      0.06593499338519757,
+      0.002295550532443679,
+      0.0052086679802730625,
+      0.027549487394819286,
+      0.0060115088472558025,
+      0.001615684800100849
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 13,
+     "probabilities": [
+      0.0008395619187369553,
+      0.0006221887033349341,
+      0.006747673474793566,
+      0.012415641213795663,
+      0.00027629338598143376,
+      0.053461634996965796,
+      0.0005519569876973396,
+      0.0008373399721166069,
+      0.015973915571144793,
+      0.009304833304983995,
+      0.0032385896105248907,
+      0.0002216861815829311,
+      0.00039253429760960834,
+      0.8813924634341718,
+      0.0001328952716208575,
+      0.00029284847938800397,
+      0.0004939757873944151,
+      0.00037043525636270034,
+      0.0009344771272003489,
+      0.0003665089581988668,
+      0.0006016742374025931,
+      0.00505012892457922,
+      0.00016232080549930872,
+      0.0002770114588349973,
+      0.0043640786755422606,
+      0.0005777505009648028,
+      9.9581463571332e-05
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 13
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Prince Alexis is the son of the king of a small European country. His duties, though fairly unimportant, nevertheless keep him so busy that he has no time for anything else. One day he meets and falls in love with a pretty young girl and wants to spend as much time with her as possible, but the royal advisers won't allow it, as it would take away from his duties. To make matters worse, his father dies and Alexis becomes king. Frustrated at his position and his inability to spend time with the woman he loves, he comes up with a novel plan to solve his problems."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.00769326531737851,
+      0.0017795399843641272,
+      0.0042619966160738106,
+      0.005039285237984309,
+      0.00025769662885379984,
+      0.2773509234040134,
+      0.0019799113203959984,
+      0.004847555220171526,
+      0.6142662544592583,
+      0.005597024524919588,
+      0.001548687867086179,
+      6.059062137362027e-05,
+      0.0002385213957710532,
+      0.005024812592881014,
+      0.0001715027370578721,
+      0.0015956457084294613,
+      0.0009819993717758225,
+      7.158468248855021e-05,
+      0.0006598225372325073,
+      0.0231248295029034,
+      0.0006644740765201347,
+      0.031093940935125387,
+      0.00015959337687641961,
+      0.00011084566151768284,
+      0.0072702265592857925,
+      0.00011207240456886531,
+      0.004037397255692815
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.0015529409074490515,
+      0.0007831257952071516,
+      0.0029075227235837247,
+      0.008582078135911568,
+      0.0003564918418878354,
+      0.30771144557466484,
+      0.0009229028883981594,
+      0.00018540916300644448,
+      0.5687706339680861,
+      0.002924635541194568,
+      0.001962100411044755,
+      0.00016484759733306683,
+      0.0003602460175359839,
+      0.0018645398418104938,
+      0.00047901774820442315,
+      0.009866045408170602,
+      0.0009836021828929142,
+      0.0001279570636355864,
+      0.0003390507038602871,
+      0.07552950480067659,
+      0.0003519880072936728,
+      0.01039765785387809,
+      0.00021196656444697105,
+      8.025450244366894e-05,
+      0.001623312990337043,
+      0.0001682005418356587,
+      0.0007925212252106334
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 8
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Retired docker Don and his wife Dora live cautiously within their means. Their daughter Joanne, a single parent, struggles to make ends meet but their property developer son David has a very high life style, mixing in circles far removed from his working class upbringing. However it is a lifestyle financed by credit and soon his world has crashed and burned. His wife takes a supermarket job and his son sells his computer games at school to raise cash as the trio move in with Don and Dora. But David persuades his father to mortgage his home and come up with fifty thousand pounds for a supposedly sound investment. It is no such thing and Don loses the lot. Aware at last that his son is a selfish wheeler dealer, cheating on his wife, Don ends up in hospital after suffering a coronary. Can the family pull together and teach David some humility in order to restore mutual trust?"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.015537732217352695,
+      0.002758466499064589,
+      0.0018085712976646487,
+      0.0013332170906369266,
+      0.00044922571734939824,
+      0.36529019339474494,
+      0.005082800303702968,
+      0.006888585508714378,
+      0.5132352293815944,
+      0.007715153116952851,
+      0.0013335687098083265,
+      0.00013230411349610965,
+      0.00015206579668826763,
+      0.014824122686373764,
+      0.0001930407999289929,
+      0.00037766511972447524,
+      0.0013426540794327752,
+      7.571217360821906e-05,
+      0.002247675253940657,
+      0.006318569331634471,
+      0.001803690382570764,
+      0.027533827771175502,
+      0.00017435478108672047,
+      0.0002705058405990412,
+      0.02075679821906056,
+      6.427812366515597e-05,
+      0.002299992289429652
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.009604920034369215,
+      0.0007816548476650131,
+      0.0003486502928808449,
+      0.0008468911148786407,
+      0.0003762681543326716,
+      0.4276888064936981,
+      0.002968038251293772,
+      0.000829616649615316,
+      0.5356901325989974,
+      0.003906542201437883,
+      0.001097346053829242,
+      0.0001809664504717902,
+      7.96786910367486e-05,
+      0.0027947947800381024,
+      0.00022097046771277676,
+      6.56562075407881e-05,
+      0.0009905077120637919,
+      7.544610955236849e-05,
+      0.0014153673811917948,
+      0.0008738826399005483,
+      0.0011730586012757278,
+      0.002036148117444933,
+      0.00018731614658356588,
+      0.0002567919060754898,
+      0.004591816270956097,
+      6.824273794811634e-05,
+      0.0008504890872092003
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 8
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "The documentary features Dong, a young man migrated from the wind-blown plains of Inner Mongolia to a densely populated Southern China, with his parents, during China's economic reform. Young Dong's spirited ideals were at odds with the values of a rapidly modernizing society in the early throws of consumerist frenzy and is spiritually alienated and socially troubled. When a good old friend and filmmaker returns to the city with a video camera in hand on the eve of Dong's 30th birthday, something in him stirs and he begins pouring out the interior landscape he had so long kept sealed away. In the year 2000 in the southern Chinese province of Kunming, filmmaker Tao Gu and his friend Dong made a promise: to return to Dong's homeland Haliar, at the heart of the inner Mongolian plains of China's far north. Ten years later, Tao returned to Kunming, camera in hand, hoping to document their journey. Instead, he found his friend Dong in a state of disarray; as a result of the massive economic reform underway in China, the social fabric of Dong's world had been ripped apart, and Dong found himself increasingly lost and distraught. Their promise to return to Mongolia could not be kept; Dong had himself become the Mongolian horse, refusing to be tamed."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.003840744065127396,
+      0.00041582483299611487,
+      0.0015876669338137446,
+      0.0009751114619198231,
+      0.002321110999575158,
+      0.022347756468055608,
+      0.0010539981675252988,
+      0.45773371943468416,
+      0.41558705818374037,
+      0.0030244683457017305,
+      0.0018221696224344265,
+      5.7107786117416836e-05,
+      0.0017936538486454455,
+      0.001240813385034366,
+      0.0006984543657559463,
+      0.0005409955677049351,
+      0.001182336943383705,
+      0.000551678834084112,
+      0.0012785601032737738,
+      0.002687479581607738,
+      0.0009662505223236502,
+      0.07450312115526282,
+      0.00019204504416630287,
+      0.0002928299012656703,
+      0.002303822785837802,
+      0.0007702948925045523,
+      0.000230926767459835
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.0007388728775175027,
+      9.25592407769196e-05,
+      0.00013393587867894724,
+      0.00013581674132876,
+      0.0028666679567637024,
+      0.0013100008855566382,
+      0.0005555324771005459,
+      0.57706777825742,
+      0.388694111416694,
+      0.0005120117432246716,
+      0.0005358861251425487,
+      3.380240085792266e-05,
+      0.0007513238700720688,
+      0.00022803218059494522,
+      0.0002605101384537395,
+      9.446542354489172e-05,
+      0.00047485474371957874,
+      0.00030810592041305657,
+      0.00020967577777864668,
+      0.000147868486982877,
+      0.00016880175448749478,
+      0.023929447033656084,
+      4.742121822391132e-05,
+      6.777764069421185e-05,
+      9.418766574793681e-05,
+      0.0004139397214175356,
+      0.00012661242315086262
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 7
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Experience Colorado like you never have before! From little known hang outs, to tucked away jewels across the state, all the way to the thrill seeking adventures just a quick car ride down the street from you. Out West will help you discover what fun awaits you in your own backyard!"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 5,
+     "probabilities": [
+      0.033235933134915185,
+      0.011604800802689321,
+      0.016820108705218474,
+      0.017180801973026665,
+      0.0009252073563354487,
+      0.260798344674334,
+      0.007964265556767717,
+      0.11279869234040772,
+      0.14678415978082257,
+      0.03768108143930886,
+      0.007462707402083768,
+      0.0004441084364779862,
+      0.0007799772862813363,
+      0.06424139685933823,
+      0.002165530015109494,
+      0.0022487887815535665,
+      0.0019080859272603563,
+      0.0014153558232805354,
+      0.06164437905573597,
+      0.005255634314188379,
+      0.005574571832901218,
+      0.15225105727926258,
+      0.004489377155169059,
+      0.003320368823841987,
+      0.02308021012140052,
+      0.0003173420808208625,
+      0.01760771304147009
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 21,
+     "probabilities": [
+      0.03270585575800978,
+      0.008680692114912117,
+      0.026677570940404124,
+      0.11947503266616888,
+      0.0011079261036766915,
+      0.0861621234743665,
+      0.010536519149178109,
+      0.03361081125223792,
+      0.06572754268346123,
+      0.12635849983137282,
+      0.030531195405213766,
+      0.0012361576129240937,
+      0.0010677913161197968,
+      0.01049170860092138,
+      0.0013086248532185828,
+      0.003791592101437801,
+      0.006391034865765945,
+      0.00934392509885173,
+      0.09931297159624744,
+      0.001915695485839387,
+      0.006671283714582855,
+      0.2798361042050409,
+      0.005028833006053805,
+      0.008050789518067461,
+      0.00773353360396953,
+      0.0006172989785583103,
+      0.015628886063398937
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 21
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Few followers of the Templar Legacy are unaware of the story of Prince Henry Sinclair; the 14th century Scottish Nobleman who was the last Earl of Orkney and a kin to the man who built the famed Rosslyn Chapel. Sinclair, of Scottish and Viking lineage, was a true adventurer worthy of his combined heritage. In 1398 Henry Sinclair traveled across the sea to Nova Scotia - a century before the famed voyage of Columbus. Traces the transatlantic journey of Prince Henry Sinclair. Examines such topics as Rosslyn Chapel, the Crusades, the Cathars, the bloodline of Christ theory and the Quest for the Holy Grail. Through the course of the film, the question is asked, \"What is the Grail?\" This question is answered through a comprehensive history of the Holy Relic and its possible connection to the Knights Templar. Unlike many documentaries, which use pan and scan pictures with a talking head voice over track, the Prince and the Grail uses location footage, costumed actors and interviews with experts on the topic."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.002357296820757936,
+      0.00024733315384374354,
+      0.006106838878696839,
+      0.004176292856366354,
+      0.007480784418746509,
+      0.005672856900394938,
+      0.0008461995829703075,
+      0.8582417691950814,
+      0.011689925266228219,
+      0.004049998967850285,
+      0.005541339822811734,
+      0.0017867338812803972,
+      0.0102656228347997,
+      0.0015317817222248763,
+      0.005984232238941172,
+      0.001593328873792682,
+      0.00258886417143504,
+      0.002555415173610353,
+      0.002408858699741276,
+      0.000960567201215541,
+      0.00784050678603826,
+      0.047410450363556136,
+      0.0014973285466304334,
+      0.005439141594530418,
+      0.0005962269631331178,
+      0.0004279511334246607,
+      0.0007023539518974237
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.0005766604756509752,
+      4.886989983862941e-05,
+      0.004691073193605465,
+      0.0006699806656058821,
+      0.004913029561228829,
+      0.0011379990312267616,
+      0.00014327362683205327,
+      0.9516506467115061,
+      0.0028764086331286884,
+      0.00032532999129082516,
+      0.0014571703130457762,
+      0.0005456036817207702,
+      0.004831180422377162,
+      0.0001578664544851679,
+      0.0009902835910534007,
+      0.00022912303025760398,
+      0.000672458606001229,
+      0.0013550095000814692,
+      0.0002022922442569082,
+      0.00038931749156192086,
+      0.0020145696646119834,
+      0.018099345588597812,
+      0.0002392079508302537,
+      0.0009307538543307944,
+      9.097356146854303e-05,
+      8.607290143229063e-05,
+      0.000675499353972649
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 7
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Judy Irving (\"The Wild Parrots of Telegraph Hill\") follows a wayward California pelican from her \"arrest\" on the Golden Gate Bridge into care at a rehab facility and explores nesting grounds, Pacific coast migration and survival challenges."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.010079105564159469,
+      0.00321701088931771,
+      0.01855183470497193,
+      0.0032716683293269448,
+      0.003101246463113864,
+      0.03244188227458953,
+      0.0047532687013400856,
+      0.6409625500951583,
+      0.1088346122979585,
+      0.015398389496358788,
+      0.003906651001792341,
+      0.0011739873890628,
+      0.0014620315429780871,
+      0.019651590734074863,
+      0.004165285198904711,
+      0.002219222985851645,
+      0.0027841147476185776,
+      0.003242797047243441,
+      0.023878262782896377,
+      0.001874578502132067,
+      0.003929276360262982,
+      0.06798301227546495,
+      0.0057689565439021165,
+      0.0021454002951501352,
+      0.008405935776463426,
+      0.00127907799859842,
+      0.005518250001305458
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.005826909528715354,
+      0.002358200541900088,
+      0.035114012403970156,
+      0.0007680513102864305,
+      0.0013546682612360081,
+      0.012819557687318869,
+      0.004374154306549773,
+      0.6855860328080231,
+      0.027691963364055643,
+      0.010867358529470501,
+      0.0032725933597259923,
+      0.0006357450721902428,
+      0.00028673813260103175,
+      0.007095120082535509,
+      0.001499357911187417,
+      0.0008791661956229548,
+      0.0013384907440212293,
+      0.003467832242637119,
+      0.037265633050035836,
+      0.00048394545327663763,
+      0.0010625297866351296,
+      0.1415652728823569,
+      0.0044978738377925796,
+      0.0009402806341926702,
+      0.0016635555085660482,
+      0.0005775398851676749,
+      0.006707416479928981
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 7
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Hypnotherapist Martin Helstrom takes his wife and little son with him while he is working in the prestigious mental hospital operated by his uncle in a remote place in the snowbound Rockies. Soon strange occurrences in the institute make him doubt his own sanity. Unknown to him Martin was a victim of mind-control experiments in the same hospital some thirty years ago."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.005596056042204382,
+      0.0011143698543958306,
+      0.008964229830850932,
+      0.0012310789826994314,
+      0.0011508040109833497,
+      0.09365961311071401,
+      0.008788325587250316,
+      0.0405192780852933,
+      0.4586728829934895,
+      0.003761301567552505,
+      0.002389036311377696,
+      6.1035042814670464e-05,
+      0.0004707935527787195,
+      0.22205449744767,
+      0.0002998887276051282,
+      0.0007687942980711809,
+      0.004416493261072962,
+      0.0001876702017560551,
+      0.0005974164518586436,
+      0.0048606839672204125,
+      0.0076888634882636255,
+      0.036442009122852684,
+      0.00026469328047996335,
+      0.00015344622990383475,
+      0.09370656315557047,
+      0.00015487589868719563,
+      0.002025299496585545
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.0007678496084132457,
+      0.0005683258703696341,
+      0.03642844683126793,
+      0.000382090489482733,
+      0.0018549276454923936,
+      0.04634948755221591,
+      0.015006705439328439,
+      0.002863782752366401,
+      0.3850425551994811,
+      0.0021643018917630796,
+      0.004097496545151212,
+      0.00011096719095261269,
+      0.00036613562349203515,
+      0.3120661739777356,
+      0.0007696393076609789,
+      0.0009087239981629042,
+      0.004826554306870885,
+      0.00032401743682037475,
+      0.00011053183820587162,
+      0.0032882107076345453,
+      0.005274524081200858,
+      0.007372979403800073,
+      0.00037013044632781453,
+      0.0001545279356494954,
+      0.16634742364627858,
+      0.0001886582160096931,
+      0.0019948320578657146
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 8
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "This film documents Kutlug Ataman's artistic production in a retrospective approach and elucidates his works with his own words and with commentaries by curators, art institution directors, art historians and critics who are familiar with his production through close collaboration, to witness the construction of an impressive artistic production spanning 15 years. The film also includes the excerpts from the artworks and the installation footages of their realization."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.0005225648898957217,
+      0.0004130927732552585,
+      0.0004560545698810402,
+      0.0007040615389275225,
+      0.0031683128833007845,
+      0.0031573835157942664,
+      0.0006822893391880708,
+      0.8943510440094797,
+      0.009408439775178306,
+      0.002018658727520167,
+      0.00044123593064038263,
+      0.00019685268160869247,
+      0.001663408259180457,
+      0.0006324672007061792,
+      0.005068309172182875,
+      0.002028939485582841,
+      0.0005213415488823968,
+      0.0007595882456061942,
+      0.002387851027891608,
+      0.0008062575055554616,
+      0.00041120864970138545,
+      0.06680052567817217,
+      0.0010316470788015212,
+      0.001103311234652909,
+      0.0008970572278382473,
+      0.00023513639499075215,
+      0.0001329606555830964
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.0002727693684528958,
+      6.415406887925717e-05,
+      6.419493539443648e-05,
+      0.00016368992799465493,
+      0.0009484544971188626,
+      0.0015733120586347417,
+      0.00016823003162015529,
+      0.9205038077766021,
+      0.0037906162617392988,
+      0.0006616741086152529,
+      0.0001426748312595866,
+      4.2581536981786935e-05,
+      0.000739548903271776,
+      6.293403301467886e-05,
+      0.00038443290797300796,
+      0.0006964144809821329,
+      0.0001309346608324094,
+      0.00015046572709154132,
+      0.00017392358474193568,
+      0.00021436796347128052,
+      7.564193350897595e-05,
+      0.06795963873150271,
+      0.00023956102779693512,
+      0.00014385540130386134,
+      0.0004997309239221149,
+      4.815932407340057e-05,
+      8.423099322030797e-05
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 7
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "This program tells the story of one of the art world's most colorful characters. A true maverick and a highly controversial figure in his day, Edouard Manet became a father figure to the Impressionist movement because of his stand against the restrictions and conventions of the French salon."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.009510804781936902,
+      0.0006564650166871673,
+      0.005716416278306576,
+      0.0034945785150932228,
+      0.00590846681233079,
+      0.09920991054225874,
+      0.00211200677117774,
+      0.47610372396033135,
+      0.1836210661025777,
+      0.00690556704352329,
+      0.002376281430937917,
+      0.00010021793870701707,
+      0.004029147751594953,
+      0.0035610590123229414,
+      0.0024589577005660395,
+      0.002649041540911623,
+      0.0016738939664849976,
+      0.0002599671722745611,
+      0.004537011917597631,
+      0.002479823680007989,
+      0.0024438622816029287,
+      0.16796898859567636,
+      0.00250155798527163,
+      0.001247261416242013,
+      0.007720015928343467,
+      0.000225080451866614,
+      0.0005288254053678986
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 21,
+     "probabilities": [
+      0.003441484588002006,
+      0.00013877815602068196,
+      0.006042974571519405,
+      0.004027316210484254,
+      0.020339031268539788,
+      0.043621973689699334,
+      0.0016098641554363388,
+      0.08631770801772301,
+      0.1873119970311724,
+      0.003156335656972746,
+      0.008043105864335074,
+      0.00010919944432166741,
+      0.012465242545990319,
+      0.00012064188380232193,
+      0.0009760824082936677,
+      0.009864101023062977,
+      0.0015412512392164795,
+      0.0004573684177144972,
+      0.0012754713603940543,
+      0.0007113805975389219,
+      0.0009557934245239978,
+      0.6012710992114262,
+      0.003387756278632144,
+      0.0004201915837416073,
+      0.0018374813303238533,
+      0.00030562694217960943,
+      0.0002507430989325769
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 21
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Tiger's Revenge is a compelling story of two tiger sisters whose life journeys intermingle and clash against the backdrop of a breathtaking ancient fort in the Ranthambore National Park. Dominant sister Sundari rules over the fort and lake area after ousting her older sibling Krishna who raises her 3 cubs in a nearby territory. Sundari too desires motherhood, an ambition that leads her to make many unexpected choices - of mates, territories and finally a decision which results in her disappearance. Though Sundari's choices were ruled by an instinctive desire to protect her cubs, ironically they leave them vulnerable with her tragic death. Despite a natural instinct for domination over territory, it is their maternal instincts that finally decides and shapes the destinies of the two sisters. The film unravels a poignant tale of motherhood even as it features the rivalry, jealousies and love stories of the two tiger siblings. Filmed extensively over a period of 2 years by wildlife filmmaker Nalla, Tiger's Revenge captures the intimate and secret life of a tiger family in a film which takes the form of an observational documentary"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.015053131536430772,
+      0.004532024464514568,
+      0.01915598085643614,
+      0.012216240382591271,
+      0.005523611842337108,
+      0.015889343127652156,
+      0.019906363650954634,
+      0.33953601280231044,
+      0.2423485368803654,
+      0.014774200187147181,
+      0.012648790417512356,
+      0.0003831299320605117,
+      0.004306387962474656,
+      0.007272377357489839,
+      0.001972859292992986,
+      0.009343540727356905,
+      0.005082101454843749,
+      0.001144402694215658,
+      0.004193829099933066,
+      0.01872657857021545,
+      0.005720937648278512,
+      0.22134805858681333,
+      0.0012222349781690542,
+      0.0005556500240053536,
+      0.012199293550580654,
+      0.0033204176523256514,
+      0.0016239643199891282
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.008639126355679086,
+      0.0018407650436128018,
+      0.006241011569893442,
+      0.0013939113645241605,
+      0.006766345216106469,
+      0.00027701133696028,
+      0.026395029675406086,
+      0.48904265648878237,
+      0.08730151987258018,
+      0.005030394381868088,
+      0.003992455149677764,
+      0.00015756557465098847,
+      0.0020360479277014127,
+      0.0021468891283096462,
+      0.0014285586827780352,
+      0.003605879068019809,
+      0.002561918983665284,
+      0.0004531343471527895,
+      0.0006628136015036737,
+      0.01624732355839257,
+      0.0011797600560023594,
+      0.3252832410507969,
+      0.00032881524264536256,
+      0.00013692962844309738,
+      0.0027958325182666417,
+      0.0011386689629242727,
+      0.0029163952136564606
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 7
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Til Infinity is a full length documentary celebrating the twenty year anniversary of the critically acclaimed Souls of Mischief album 93 Til Infinity With over 50 interviews with notable MC's, producers and DJ's Til Infinity offers a retrospective and in-depth look at the famed Hieroglyphics crews landmark 1993 debut album Oakland California filmmaker Shomari Smith interviewed the entire Hieroglyphics collective while traveling across the country to capture intimate dialog with hip hop notables."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.0002016340517907317,
+      0.0006118427443941015,
+      0.0001839722651236868,
+      0.0002462627115899901,
+      0.004703312908005217,
+      0.0017262390869935127,
+      0.00022410772573312133,
+      0.7651762735212295,
+      0.002923495747474904,
+      0.0006177259984658285,
+      0.00042270099794295064,
+      0.000541152042679676,
+      0.0009586299445742874,
+      0.0004585246753178547,
+      0.1931315216371389,
+      0.0010492041920363367,
+      0.00023464852633379088,
+      0.003604148738195235,
+      0.006359543530924673,
+      0.00038700135376253976,
+      0.00021217576224132826,
+      0.007457167763924001,
+      0.0019598009204079793,
+      0.0060103516275420606,
+      0.00026964780268772025,
+      0.00022983969789016142,
+      9.907402559788238e-05
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 7,
+     "probabilities": [
+      6.430204289809805e-05,
+      0.00010617962788795603,
+      4.826442585597809e-05,
+      2.583819145124319e-05,
+      0.001218574007290984,
+      4.104120794366724e-05,
+      3.0176607001581774e-05,
+      0.9894542804972006,
+      0.0011232271815239032,
+      2.3605436326571677e-05,
+      5.104444741338876e-05,
+      8.328223303566225e-05,
+      9.865431418789412e-05,
+      0.00017609654255663413,
+      0.004156321719166352,
+      1.626761153656742e-05,
+      1.925104145900607e-05,
+      0.000704503322695799,
+      0.0008397402746858019,
+      4.8501373489788706e-05,
+      1.6104892762782765e-05,
+      0.0009821322695906165,
+      0.00015786316491564687,
+      0.00036092557375108967,
+      5.262423469042774e-05,
+      1.8706457511657516e-05,
+      8.249130117015592e-05
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 7
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Captain Maddocks will never be promoted beyond Captain because of a mistake that he made in the past. Lt. McQuade is a green rookie who is now under the command of the tough Captain and he does not seem to be able to do anything right. Lt. McQuade also has trouble with Tracey, but it will be the renegade Indians that will test him and teach him the importance of following orders. A cavalry outpost in a desert country, where both Comanches and Apaches make frightening enemies, is the domain of bitter Captain Stephen Maddocks, who will never be promoted because of a mistake he once made and has to do with half staff. From arrival Lieutenant Curtis McQuade, Maddock's former general's inexperienced son, finds his veteran commander tough and difficult, but eminently experienced and always sadly right in Indian matters. Furthermore McQuade gets into a dispute with a fellow officer, whom he outranks, rivaling for Lt. Thomas Gresham's lady, Tracey Hamilton who was his former girlfriend. Once Maddocks has no other choice than use McQuade against the Indian danger, desert patrol life proves to be a hard school but Curtis is a good pupil..."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.10373455725550967,
+      0.004800437189015985,
+      0.04372425393534193,
+      0.016036073610123425,
+      0.000837195726769563,
+      0.13732937212538093,
+      0.00931607598581897,
+      0.023484537371227784,
+      0.4357195615050194,
+      0.012657471961642644,
+      0.0037981201566157433,
+      0.0008870746190456166,
+      0.001387656514474698,
+      0.011579832082302798,
+      0.0004159134907216797,
+      0.0030737653812498286,
+      0.002268943863372926,
+      0.0003730679660204474,
+      0.0031391165368412585,
+      0.00928020801331915,
+      0.017220975806399218,
+      0.03382780685693395,
+      0.0006120276892636956,
+      0.0013259895852678377,
+      0.03589899760995028,
+      0.005789060339678903,
+      0.08148190682269224
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.04860911588330719,
+      0.004249782636663869,
+      0.1379119605084713,
+      0.03916924661439454,
+      0.0015340286364445403,
+      0.05570779472599588,
+      0.007275043260366722,
+      0.005241513760858914,
+      0.41984510979317996,
+      0.01712400128643688,
+      0.008508012359164952,
+      0.0014721705019357682,
+      0.0009563163622940664,
+      0.001289893222791068,
+      0.0023702399754461775,
+      0.00464920539479179,
+      0.002085909170298508,
+      0.0007695140008885096,
+      0.0073026607888015075,
+      0.011500636324061446,
+      0.019227304689198293,
+      0.014147517788154856,
+      0.0012475375758336888,
+      0.004086972547108264,
+      0.04666204321350738,
+      0.02086378106129008,
+      0.11619268791831396
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 8
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "A retired hitman is pulled back into the criminal underworld when a gang murders the dog left to him by his late wife, and he sets out to hunt down every last one of them."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.1492844879317995,
+      0.0034378954645895264,
+      0.02357864170520125,
+      0.004540842451650219,
+      0.0012042357961314903,
+      0.11688607080228099,
+      0.07957226981513799,
+      0.03180253831992437,
+      0.23892300404599087,
+      0.003979894028862246,
+      0.0012228843332942503,
+      0.0006077374850422685,
+      0.00110133607049448,
+      0.06201568860221289,
+      0.0009235691795145311,
+      0.0016515530168045777,
+      0.012094024177884268,
+      0.0013111532301991686,
+      0.0019877476340152394,
+      0.0023802043607128232,
+      0.01053750616430837,
+      0.026437532597280978,
+      0.0006894845915689265,
+      0.0008330221818988723,
+      0.17695480280560577,
+      0.0005316312923494544,
+      0.04551024191524365
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 24,
+     "probabilities": [
+      0.0572775799270904,
+      0.0033404395648765884,
+      0.01535988258445113,
+      0.002221594189264753,
+      0.000653537472784717,
+      0.13577959856600486,
+      0.2450814145317073,
+      0.005817728737367559,
+      0.2000065960314861,
+      0.0018818434510132955,
+      0.00031047023759746956,
+      0.0005039479599349784,
+      0.0006071766325230565,
+      0.02715779138894139,
+      0.0016103715407306913,
+      0.0009628833950727568,
+      0.004591413923378707,
+      0.0029351436474621385,
+      0.0014497431017502552,
+      0.0006309022757748238,
+      0.0049940124488324494,
+      0.008773267195245614,
+      0.0008986938463613202,
+      0.002063408745292587,
+      0.25485554256671905,
+      0.0005618700767806267,
+      0.0196731459615555
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 24
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Two sisters open a bakery in a small coastal town and slowly rebuild their relationship over one summer, learning to forgive their mother along the way."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.005571083023906955,
+      0.0037827012679096275,
+      0.003703039365495251,
+      0.002223921331893098,
+      0.0010493060048962618,
+      0.07487703054574875,
+      0.002397237573311717,
+      0.09404104134928455,
+      0.6678716693576122,
+      0.025296936536542542,
+      0.005118878691800621,
+      0.00031663714961833225,
+      0.0009971536319592661,
+      0.01237231049688936,
+      0.0009431159114577152,
+      0.0015966569279416906,
+      0.002046288265274265,
+      0.0007180370671829011,
+      0.004713256473053858,
+      0.02299868769699688,
+      0.002437569054612718,
+      0.038800074005079094,
+      0.0012335635273318715,
+      0.0008510712729370984,
+      0.020067779459054004,
+      0.0006804561877044235,
+      0.0032944978245053502
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.0016391430068361371,
+      0.0007507029369566353,
+      0.0005825052496037932,
+      0.00033513167740211255,
+      0.00025661307911658974,
+      0.023832911408229532,
+      0.00016191429624209778,
+      0.019079003282254953,
+      0.8740007305551886,
+      0.020100608686567732,
+      0.002301767516955551,
+      0.0001489845174894078,
+      0.0002767387576725342,
+      0.0011323312518006603,
+      0.00018979064159740298,
+      0.00021693018003713968,
+      0.00040927665155219504,
+      0.000518459032916594,
+      0.00036025798056591054,
+      0.0071949754145924,
+      0.0005295810163943452,
+      0.03708218418596628,
+      0.0008098925228365079,
+      0.00014870682279187656,
+      0.006822486055012279,
+      0.00024235113051736986,
+      0.0008760221429030893
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 8
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "A team of astronauts travels through a newly discovered wormhole in a desperate search for a habitable planet as crops fail and dust storms swallow the Earth."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.05249373218539904,
+      0.002483232567613615,
+      0.02373379235611683,
+      0.014830221028786254,
+      0.0016178317459126228,
+      0.09624973775948059,
+      0.003520903322351958,
+      0.30952366143944154,
+      0.07278305492795167,
+      0.024799107923475144,
+      0.010492762277638512,
+      0.0016157120976484061,
+      0.002271141229815818,
+      0.06316134404899718,
+      0.002002671811435193,
+      0.0017668520459171474,
+      0.002957495894423944,
+      0.0010692320543968343,
+      0.012180814817698653,
+      0.0035465379362493396,
+      0.19169418281651351,
+      0.07894773956737693,
+      0.002914296280300999,
+      0.001431050784071555,
+      0.013391414518846618,
+      0.0009133974854441506,
+      0.0076080790766975635
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.030947889748220013,
+      0.0014052595750298593,
+      0.006510579723725939,
+      0.004510630032325983,
+      0.00034215178608117374,
+      0.08625243029516969,
+      0.0006544277792789838,
+      0.37115453731118037,
+      0.00837307387503467,
+      0.00938212513548662,
+      0.006406759896662046,
+      0.0010889784743140795,
+      0.0005616902397187214,
+      0.025827445548164945,
+      0.0009460662055553775,
+      0.000416298327625351,
+      0.0004548948760648834,
+      0.0005437959159296081,
+      0.004103043390652043,
+      0.0004896594196034677,
+      0.35679196128831064,
+      0.0764898761254973,
+      0.0015389636111144188,
+      0.0013086061856379884,
+      0.0015186339454708812,
+      0.00030711437253631634,
+      0.0016731069156086448
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 7
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "This film follows three families in rural Kenya over four years as they fight a mining company for the right to remain on their ancestral land."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.016945865900549372,
+      0.0010603179258933785,
+      0.011006359605861025,
+      0.0034631599186852836,
+      0.0011507263874984532,
+      0.03921039003406903,
+      0.0028559949384775185,
+      0.5285221000928849,
+      0.2976053439460626,
+      0.004404651119660512,
+      0.005974003789942323,
+      0.0003451524895903094,
+      0.0019711763700183092,
+      0.011887516206103963,
+      0.0007441418282645165,
+      0.0018872025337076084,
+      0.0015154964020060299,
+      0.0005407208688446728,
+      0.0036494407271514483,
+      0.008021906256243019,
+      0.006738513541943246,
+      0.03014407466133202,
+      0.0006710056098863789,
+      0.00047061217507615217,
+      0.010566411681007354,
+      0.001160855798475067,
+      0.007486859190765606
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 7,
+     "probabilities": [
+      0.002037955183244489,
+      0.00013115374722005976,
+      0.00177969157602941,
+      0.00032658048041106903,
+      0.000287039647046188,
+      0.002951157057369468,
+      0.00023672504713649246,
+      0.9436674416672255,
+      0.03740397181924993,
+      0.00016118776503504765,
+      0.003619087032268258,
+      5.3237407334869765e-05,
+      0.0004436611757181592,
+      0.000705649312422962,
+      6.937216492845457e-05,
+      0.0003854829159702522,
+      0.00020963238240386223,
+      0.0001840114611610585,
+      0.0003720762849532037,
+      0.00047233993820250424,
+      0.0009176158223210247,
+      0.0018298663377871041,
+      9.479851858257984e-05,
+      8.320080404200949e-05,
+      0.000519926335137996,
+      0.000269490546840391,
+      0.0007876475699575159
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 7
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "A young wizard discovers on his eleventh birthday that he has been accepted to a school of magic, where he must confront the dark sorcerer who killed his parents."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 8,
+     "probabilities": [
+      0.022823166229110178,
+      0.0032308611839771215,
+      0.03161411320685182,
+      0.04426935468167425,
+      0.0009541730154731548,
+      0.08694583509371903,
+      0.00572371865117799,
+      0.07486511829864669,
+      0.3182519580163599,
+      0.045340639826381,
+      0.038567002682305895,
+      0.0002872582422336736,
+      0.0010193575268329718,
+      0.14184088188166472,
+      0.0019322431202281039,
+      0.0028444303949760755,
+      0.00814893561676101,
+      0.0005785026739333042,
+      0.004355455102817836,
+      0.00802610904566357,
+      0.00922231457192574,
+      0.10287870339644742,
+      0.0006251887685114656,
+      0.0007562945833331105,
+      0.04084155416825643,
+      0.0010137287119682337,
+      0.0030431013087709614
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 10,
+     "probabilities": [
+      0.012399728111042235,
+      0.0020659826297521854,
+      0.03073887851776778,
+      0.06546315189288564,
+      0.00044231212826055093,
+      0.002035589581191236,
+      0.008927634202532777,
+      0.021512354486470115,
+      0.2222447234527032,
+      0.03514374726868984,
+      0.2912388821386831,
+      0.00045165668988766705,
+      0.0007912446304698572,
+      0.14581525307473,
+      0.002381740406318533,
+      0.0018526465976860644,
+      0.010579323954420983,
+      0.0010883134611685183,
+      0.0030710962569904755,
+      0.0009116644009360468,
+      0.013103311183431249,
+      0.09618170964963771,
+      0.0006487619486781206,
+      0.0007385982553408283,
+      0.027064910482212226,
+      0.001240371330956562,
+      0.0018664132671565592
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 8
+    }
+   }
+  }
+ ]
+}
