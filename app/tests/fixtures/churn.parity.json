@@ -1,0 +1,2225 @@
+{
+ "task": "churn",
+ "cases": [
+  {
+   "input": {
+    "creditScore": 782.0,
+    "age": 41.0,
+    "tenure": 4.0,
+    "balance": 0.0,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 132943.88,
+    "geography": "Spain",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7488678029444218,
+      0.25113219705557815
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.6795653639144525,
+      0.3204346360855476
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.5978430136532727,
+      0.40215698634672725
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 536.0,
+    "age": 32.0,
+    "tenure": 7.0,
+    "balance": 178011.5,
+    "numOfProducts": 2.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 22375.14,
+    "geography": "France",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8638713662776678,
+      0.1361286337223322
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8487801719722724,
+      0.1512198280277271
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9267747435129186,
+      0.07322525648708149
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 776.0,
+    "age": 30.0,
+    "tenure": 6.0,
+    "balance": 0.0,
+    "numOfProducts": 2.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 63908.86,
+    "geography": "Spain",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9717005695532517,
+      0.02829943044674832
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9802966973826672,
+      0.019703302617332576
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9843169070232537,
+      0.015683092976746273
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 652.0,
+    "age": 36.0,
+    "tenure": 9.0,
+    "balance": 150956.71,
+    "numOfProducts": 1.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 72350.17,
+    "geography": "Germany",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.6676508248698192,
+      0.33234917513018075
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7553674173896364,
+      0.24463258261036305
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8002392179350113,
+      0.19976078206498873
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 772.0,
+    "age": 26.0,
+    "tenure": 7.0,
+    "balance": 152400.51,
+    "numOfProducts": 2.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 79414.0,
+    "geography": "Germany",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8421856829318866,
+      0.15781431706811339
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9082845012945095,
+      0.09171549870549077
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9444376934414099,
+      0.055562306558590104
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 673.0,
+    "age": 43.0,
+    "tenure": 8.0,
+    "balance": 127132.96,
+    "numOfProducts": 1.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 6009.27,
+    "geography": "Spain",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8952441548142193,
+      0.10475584518578075
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8179574458566328,
+      0.18204255414336704
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8457280801277169,
+      0.15427191987228311
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 597.0,
+    "age": 46.0,
+    "tenure": 4.0,
+    "balance": 0.0,
+    "numOfProducts": 2.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 58667.16,
+    "geography": "Spain",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.6812681849484614,
+      0.3187318150515385
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.780117473224528,
+      0.21988252677547193
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8237999290216899,
+      0.17620007097831014
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 723.0,
+    "age": 40.0,
+    "tenure": 7.0,
+    "balance": 142856.95,
+    "numOfProducts": 2.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 38019.74,
+    "geography": "France",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7181555067790506,
+      0.28184449322094934
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8693647389498316,
+      0.13063526105016826
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9252044466708603,
+      0.07479555332913965
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 655.0,
+    "age": 61.0,
+    "tenure": 2.0,
+    "balance": 183997.7,
+    "numOfProducts": 2.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 161217.18,
+    "geography": "Germany",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.3628061017235876,
+      0.6371938982764124
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7075340561513853,
+      0.29246594384861463
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8467515530016528,
+      0.15324844699834714
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 650.0,
+    "age": 41.0,
+    "tenure": 3.0,
+    "balance": 128808.65,
+    "numOfProducts": 3.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 113677.53,
+    "geography": "Spain",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7936428833260807,
+      0.20635711667391937
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.3584953112218532,
+      0.6415046887781466
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.08171589015416858,
+      0.9182841098458314
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 717.0,
+    "age": 22.0,
+    "tenure": 6.0,
+    "balance": 101060.25,
+    "numOfProducts": 1.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 84699.56,
+    "geography": "Spain",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9578050848654235,
+      0.04219491513457647
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.917345089848626,
+      0.0826549101513737
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9349127008631178,
+      0.06508729913688215
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 724.0,
+    "age": 40.0,
+    "tenure": 6.0,
+    "balance": 0.0,
+    "numOfProducts": 2.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 106149.48,
+    "geography": "France",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8538427378639135,
+      0.14615726213608649
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9512605257004121,
+      0.048739474299587936
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9672371350531316,
+      0.032762864946868385
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 501.0,
+    "age": 43.0,
+    "tenure": 6.0,
+    "balance": 104533.24,
+    "numOfProducts": 1.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 81123.59,
+    "geography": "Spain",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.719665221072419,
+      0.280334778927581
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7104476806994335,
+      0.2895523193005663
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.6570976512491885,
+      0.3429023487508115
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 677.0,
+    "age": 58.0,
+    "tenure": 1.0,
+    "balance": 90022.85,
+    "numOfProducts": 1.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 2988.28,
+    "geography": "France",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.6604584567917412,
+      0.3395415432082588
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.65562416542605,
+      0.3443758345739498
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.6831702332358353,
+      0.31682976676416474
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 713.0,
+    "age": 32.0,
+    "tenure": 1.0,
+    "balance": 117094.02,
+    "numOfProducts": 1.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 149558.83,
+    "geography": "France",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7856865880061165,
+      0.21431341199388354
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8672167310641237,
+      0.13278326893587644
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8918368873801193,
+      0.10816311261988067
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 641.0,
+    "age": 31.0,
+    "tenure": 9.0,
+    "balance": 112494.99,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 32231.6,
+    "geography": "France",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9567543552888317,
+      0.043245644711168284
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9385296188259504,
+      0.06147038117404897
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9375046858484314,
+      0.06249531415156859
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 554.0,
+    "age": 37.0,
+    "tenure": 4.0,
+    "balance": 58629.97,
+    "numOfProducts": 1.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 182038.6,
+    "geography": "Germany",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.531974933852552,
+      0.468025066147448
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7620945886945644,
+      0.23790541130543574
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7443693128659785,
+      0.25563068713402154
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 766.0,
+    "age": 52.0,
+    "tenure": 7.0,
+    "balance": 92510.9,
+    "numOfProducts": 2.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 66193.61,
+    "geography": "France",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.780588083566967,
+      0.219411916433033
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7495468798351488,
+      0.25045312016485105
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7491681651670717,
+      0.25083183483292826
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 653.0,
+    "age": 43.0,
+    "tenure": 0.0,
+    "balance": 0.0,
+    "numOfProducts": 2.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 27862.58,
+    "geography": "France",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8300199013393748,
+      0.16998009866062525
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8942188814872762,
+      0.10578111851272404
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9034827202577239,
+      0.09651727974227604
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 602.0,
+    "age": 29.0,
+    "tenure": 5.0,
+    "balance": 103907.28,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 161229.84,
+    "geography": "Spain",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8822880936206557,
+      0.11771190637934428
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8975160881745775,
+      0.10248391182542205
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9254814856334774,
+      0.07451851436652261
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 697.0,
+    "age": 31.0,
+    "tenure": 3.0,
+    "balance": 108805.42,
+    "numOfProducts": 2.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 123825.83,
+    "geography": "Germany",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9059459937331715,
+      0.09405400626682846
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9182275541978671,
+      0.081772445802133
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.939990219057918,
+      0.060009780942081946
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 663.0,
+    "age": 37.0,
+    "tenure": 7.0,
+    "balance": 143625.83,
+    "numOfProducts": 2.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 176487.05,
+    "geography": "Germany",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8465506064175037,
+      0.15344939358249626
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9182379186228841,
+      0.08176208137711577
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9223410290780908,
+      0.07765897092190918
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 766.0,
+    "age": 26.0,
+    "tenure": 3.0,
+    "balance": 104258.8,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 428.23,
+    "geography": "France",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9543861180315175,
+      0.045613881968482504
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9051222273618121,
+      0.0948777726381879
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9228002503657243,
+      0.07719974963427564
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 538.0,
+    "age": 33.0,
+    "tenure": 6.0,
+    "balance": 93791.38,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 199249.29,
+    "geography": "France",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9400813303688867,
+      0.05991866963111324
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8903009418296396,
+      0.10969905817035984
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9195383973823074,
+      0.08046160261769268
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 652.0,
+    "age": 31.0,
+    "tenure": 2.0,
+    "balance": 119148.55,
+    "numOfProducts": 1.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 149740.22,
+    "geography": "France",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8630253724632511,
+      0.1369746275367489
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.905117221330154,
+      0.09488277866984592
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9165962270226754,
+      0.0834037729773246
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 667.0,
+    "age": 44.0,
+    "tenure": 8.0,
+    "balance": 122277.87,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 91810.71,
+    "geography": "France",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8933630712709046,
+      0.10663692872909537
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8168096326392777,
+      0.18319036736072217
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8689825810953542,
+      0.13101741890464577
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 708.0,
+    "age": 38.0,
+    "tenure": 8.0,
+    "balance": 99640.89,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 12429.22,
+    "geography": "Spain",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8365224236993386,
+      0.1634775763006614
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8508271439006386,
+      0.14917285609936085
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.899518582565107,
+      0.10048141743489306
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 532.0,
+    "age": 42.0,
+    "tenure": 1.0,
+    "balance": 159024.71,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 100982.93,
+    "geography": "France",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7238131913236361,
+      0.27618680867636386
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7252638840793282,
+      0.27473611592067215
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7779358008033164,
+      0.2220641991966837
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 487.0,
+    "age": 44.0,
+    "tenure": 6.0,
+    "balance": 61691.45,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 53087.98,
+    "geography": "Spain",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.890539074448917,
+      0.10946092555108297
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7635282340231109,
+      0.23647176597688882
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8136606757746534,
+      0.18633932422534658
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 626.0,
+    "age": 62.0,
+    "tenure": 3.0,
+    "balance": 0.0,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 65010.74,
+    "geography": "Spain",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.747421135061958,
+      0.252578864938042
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.6895639721073801,
+      0.3104360278926203
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7088937128708213,
+      0.29110628712917874
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 637.0,
+    "age": 32.0,
+    "tenure": 5.0,
+    "balance": 0.0,
+    "numOfProducts": 1.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 148769.08,
+    "geography": "France",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8895250147177151,
+      0.11047498528228494
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8430958961037331,
+      0.15690410389626672
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8485315999864058,
+      0.1514684000135942
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 608.0,
+    "age": 38.0,
+    "tenure": 8.0,
+    "balance": 103653.51,
+    "numOfProducts": 2.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 137079.86,
+    "geography": "Germany",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.782137665115402,
+      0.21786233488459805
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8311222527237337,
+      0.16887774727626603
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8704382875516813,
+      0.1295617124483187
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 679.0,
+    "age": 39.0,
+    "tenure": 7.0,
+    "balance": 91187.9,
+    "numOfProducts": 1.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 6075.36,
+    "geography": "Spain",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8800708205410726,
+      0.11992917945892739
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8679922637256523,
+      0.13200773627434767
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8580289846066872,
+      0.14197101539331278
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 573.0,
+    "age": 26.0,
+    "tenure": 8.0,
+    "balance": 86270.93,
+    "numOfProducts": 2.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 90177.3,
+    "geography": "France",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9712614287564089,
+      0.028738571243591162
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9568174651294957,
+      0.04318253487050378
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.970397905405804,
+      0.029602094594196042
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 659.0,
+    "age": 20.0,
+    "tenure": 8.0,
+    "balance": 0.0,
+    "numOfProducts": 2.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 112572.02,
+    "geography": "France",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9576913280022925,
+      0.04230867199770751
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9753676854429627,
+      0.02463231455703756
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9800494739817999,
+      0.01995052601820012
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 735.0,
+    "age": 41.0,
+    "tenure": 7.0,
+    "balance": 74135.85,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 11783.1,
+    "geography": "France",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9295949646642518,
+      0.0704050353357481
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8703065599480648,
+      0.12969344005193495
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8731050606051051,
+      0.12689493939489496
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 486.0,
+    "age": 40.0,
+    "tenure": 9.0,
+    "balance": 71340.09,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 76192.21,
+    "geography": "Germany",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.504460479312286,
+      0.49553952068771406
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7103105788633232,
+      0.2896894211366769
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7530956967420119,
+      0.2469043032579881
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 846.0,
+    "age": 34.0,
+    "tenure": 10.0,
+    "balance": 142388.61,
+    "numOfProducts": 2.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 68393.64,
+    "geography": "France",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9237279572319801,
+      0.0762720427680199
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.931300811268696,
+      0.06869918873130393
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9603210820056959,
+      0.03967891799430408
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 649.0,
+    "age": 36.0,
+    "tenure": 2.0,
+    "balance": 0.0,
+    "numOfProducts": 2.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 75035.48,
+    "geography": "France",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9230488495862812,
+      0.07695115041371882
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9537050085368974,
+      0.046294991463102474
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.973859836423911,
+      0.026140163576088993
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 525.0,
+    "age": 23.0,
+    "tenure": 5.0,
+    "balance": 0.0,
+    "numOfProducts": 2.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 160249.1,
+    "geography": "France",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9068632532693733,
+      0.09313674673062665
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9390489749709837,
+      0.06095102502901614
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9672518537109099,
+      0.032748146289090015
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 735.0,
+    "age": 41.0,
+    "tenure": 7.0,
+    "balance": 179904.0,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 137180.95,
+    "geography": "France",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.900554193482892,
+      0.09944580651710794
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7990536044418207,
+      0.2009463955581789
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7722109312116152,
+      0.2277890687883848
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 550.0,
+    "age": 45.0,
+    "tenure": 8.0,
+    "balance": 111257.59,
+    "numOfProducts": 1.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 97623.42,
+    "geography": "Germany",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.3835006156693933,
+      0.6164993843306067
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.3077842321210913,
+      0.6922157678789086
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.218135815770379,
+      0.781864184229621
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 386.0,
+    "age": 53.0,
+    "tenure": 1.0,
+    "balance": 131955.07,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 62514.65,
+    "geography": "Spain",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.6517666982522803,
+      0.34823330174771966
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.6691726977025395,
+      0.33082730229746066
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.5364409631448191,
+      0.46355903685518085
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 718.0,
+    "age": 49.0,
+    "tenure": 10.0,
+    "balance": 0.0,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 184474.72,
+    "geography": "France",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.6263076175265594,
+      0.37369238247344067
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.39283788457044605,
+      0.6071621154295539
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.22417429179323556,
+      0.7758257082067644
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 657.0,
+    "age": 22.0,
+    "tenure": 6.0,
+    "balance": 0.0,
+    "numOfProducts": 3.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 168412.07,
+    "geography": "Spain",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9707299134171061,
+      0.029270086582893835
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.5128263831227247,
+      0.48717361687727534
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.5409803439907828,
+      0.45901965600921724
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 777.0,
+    "age": 34.0,
+    "tenure": 5.0,
+    "balance": 96693.66,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 172618.52,
+    "geography": "Germany",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8257950167520346,
+      0.17420498324796543
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7843541243601411,
+      0.2156458756398593
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8434603858987475,
+      0.15653961410125247
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 438.0,
+    "age": 60.0,
+    "tenure": 7.0,
+    "balance": 78391.17,
+    "numOfProducts": 1.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 49424.6,
+    "geography": "France",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7045925592397724,
+      0.29540744076022757
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7551956119729775,
+      0.24480438802702256
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7884715129717299,
+      0.21152848702827004
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 745.0,
+    "age": 40.0,
+    "tenure": 3.0,
+    "balance": 88466.82,
+    "numOfProducts": 1.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 116331.42,
+    "geography": "Spain",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7960708416287283,
+      0.20392915837127162
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7858043461730921,
+      0.21419565382690792
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8120690301414979,
+      0.1879309698585021
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 579.0,
+    "age": 42.0,
+    "tenure": 0.0,
+    "balance": 144386.32,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 22497.1,
+    "geography": "Germany",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7874863348429986,
+      0.2125136651570014
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.6799488197345651,
+      0.32005118026543494
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.5409288413411757,
+      0.4590711586588243
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 809.0,
+    "age": 41.0,
+    "tenure": 1.0,
+    "balance": 79706.25,
+    "numOfProducts": 2.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 165675.01,
+    "geography": "Germany",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.674519199512905,
+      0.32548080048709505
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8692545314125065,
+      0.13074546858749334
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9402055054014283,
+      0.05979449459857171
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 599.0,
+    "age": 39.0,
+    "tenure": 2.0,
+    "balance": 188976.89,
+    "numOfProducts": 2.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 176142.09,
+    "geography": "Germany",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7956225580045333,
+      0.20437744199546665
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8941717821421404,
+      0.10582821785785934
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9398204650103862,
+      0.060179534989613835
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 594.0,
+    "age": 28.0,
+    "tenure": 0.0,
+    "balance": 142574.71,
+    "numOfProducts": 2.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 129084.82,
+    "geography": "Germany",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7877174926128439,
+      0.21228250738715612
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.886842570870414,
+      0.11315742912958565
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9213034522691091,
+      0.07869654773089087
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 758.0,
+    "age": 50.0,
+    "tenure": 2.0,
+    "balance": 95813.76,
+    "numOfProducts": 3.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 67944.09,
+    "geography": "France",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8248364010288973,
+      0.17516359897110265
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.26887296355735213,
+      0.7311270364426475
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.06760620869213341,
+      0.9323937913078666
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 682.0,
+    "age": 38.0,
+    "tenure": 4.0,
+    "balance": 107192.38,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 15669.17,
+    "geography": "France",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9330569721728721,
+      0.06694302782712785
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9063760890777002,
+      0.09362391092229944
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9163163813019213,
+      0.08368361869807878
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 732.0,
+    "age": 33.0,
+    "tenure": 8.0,
+    "balance": 111379.55,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 45098.62,
+    "geography": "Spain",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9209046762969394,
+      0.0790953237030606
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9211859071362638,
+      0.07881409286373585
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9152677794275276,
+      0.08473222057247244
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 395.0,
+    "age": 34.0,
+    "tenure": 5.0,
+    "balance": 106011.59,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 17376.57,
+    "geography": "Germany",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7893907291324423,
+      0.21060927086755765
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7335222175877885,
+      0.2664777824122109
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.6641022035559905,
+      0.3358977964440095
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 556.0,
+    "age": 40.0,
+    "tenure": 5.0,
+    "balance": 125909.85,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 95124.4,
+    "geography": "France",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.906751719116458,
+      0.09324828088354202
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8868673906588566,
+      0.1131326093411433
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.886819730598787,
+      0.11318026940121298
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 646.0,
+    "age": 52.0,
+    "tenure": 8.0,
+    "balance": 59669.43,
+    "numOfProducts": 1.0,
+    "hasCrCard": 0.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 172495.81,
+    "geography": "France",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.6311796005019565,
+      0.3688203994980434
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.34461047843644876,
+      0.6553895215635515
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.2901526204615631,
+      0.7098473795384369
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 774.0,
+    "age": 49.0,
+    "tenure": 1.0,
+    "balance": 142767.39,
+    "numOfProducts": 1.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 1.0,
+    "estimatedSalary": 8214.41,
+    "geography": "France",
+    "gender": "Male"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.862725983345554,
+      0.13727401665444605
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.703887380804096,
+      0.29611261919590437
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7483615073136152,
+      0.25163849268638483
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "creditScore": 635.0,
+    "age": 47.0,
+    "tenure": 2.0,
+    "balance": 125724.95,
+    "numOfProducts": 2.0,
+    "hasCrCard": 1.0,
+    "isActiveMember": 0.0,
+    "estimatedSalary": 63236.97,
+    "geography": "France",
+    "gender": "Female"
+   },
+   "expected": {
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.604697254764038,
+      0.395302745235962
+     ]
+    },
+    "random_forest": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.6054402392553008,
+      0.3945597607446992
+     ]
+    },
+    "gradient_boosting": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.6689429757252585,
+      0.33105702427474154
+     ]
+    }
+   }
+  }
+ ]
+}

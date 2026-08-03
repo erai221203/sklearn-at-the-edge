@@ -1,0 +1,1787 @@
+{
+ "task": "spam",
+ "cases": [
+  {
+   "input": {
+    "text": "I'm done oredi..."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9507580368236742,
+      0.04924196317632585
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9305774122196945,
+      0.0694225877803055
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.2328577613595748
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Do I? I thought I put it back in the box"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8789515690612344,
+      0.1210484309387659
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8643065416582323,
+      0.13569345834176766
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -0.7823589210967037
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "SMS SERVICES. for your inclusive text credits, pls goto www.comuk.net login= 3qxj9 unsubscribe with STOP, no extra charge. help 08702840625.COMUK. 220-CM2 9AE"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.11617369133818664,
+      0.8838263086618137
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.3647413063009153,
+      0.6352586936990847
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 1,
+     "scores": [
+      1.1444781225112046
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "No she didnt. I will search online and let you know."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9930289639991164,
+      0.006971036000884792
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9609697962304948,
+      0.039030203769505216
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.6164429299880532
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Hey... Very inconvenient for your sis a not huh?"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9908548007402631,
+      0.00914519925973723
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9629089529004371,
+      0.037091047099562874
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.5292538048798983
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Are there TA jobs available? Let me know please cos i really need to start working"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9954999751943678,
+      0.004500024805631943
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9650045542509997,
+      0.034995445749000244
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.4579318856880779
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Nope. Since ayo travelled, he has forgotten his guy"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.978961057810162,
+      0.0210389421898382
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9420947754062542,
+      0.057905224593745856
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.101500552797811
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "No problem. We will be spending a lot of quality time together..."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.985141466770764,
+      0.014858533229237183
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9565499233492102,
+      0.043450076650789815
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.484161170837461
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Call me da, i am waiting for your call."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9798479858940994,
+      0.020152014105900153
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9149906522782675,
+      0.08500934772173255
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -0.8347823899972697
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Dude ive been seeing a lotta corvettes lately"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9497413919292551,
+      0.050258608070744865
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9363814053896481,
+      0.06361859461035187
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.1351906612072586
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "I luv u soo much u donåÕt understand how special u r 2 me ring u 2morrow luv u xxx"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9425745481906355,
+      0.05742545180936607
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8830444270982555,
+      0.11695557290174455
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -0.9160741146445869
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "I have had two more letters from . I will copy them for you cos one has a message for you. Speak soon"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9737918276674812,
+      0.02620817233252026
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9031452900231212,
+      0.0968547099768789
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -0.9562321316318438
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Its not the same here. Still looking for a job. How much do Ta's earn there."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9481063758831326,
+      0.05189362411686842
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9200503855462415,
+      0.07994961445375845
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.2182521940231394
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "No messages on her phone. I'm holding it now"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9031979852209652,
+      0.09680201477903398
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.8733204811459997,
+      0.12667951885400028
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -0.7398355483045574
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Good words.... But words may leave u in dismay many times."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9911860355970717,
+      0.008813964402928589
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9595696951956564,
+      0.04043030480434362
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.21970990727741
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "What you need. You have a person to give na."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9887809565118109,
+      0.01121904348818865
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9556327676245131,
+      0.04436723237548695
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.297413800332557
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "My planning usually stops at \\find hella weed"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9442793946115622,
+      0.05572060538843815
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9301736802746993,
+      0.06982631972530073
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.0664261640209065
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Get the official ENGLAND poly ringtone or colour flag on yer mobile for tonights game! Text TONE or FLAG to 84199. Optout txt ENG STOP Box39822 W111WX å£1.50"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.034032842707361136,
+      0.9659671572926403
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.1967386438239852,
+      0.8032613561760148
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 1,
+     "scores": [
+      1.272231838232596
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Sorry,in meeting I'll call later"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9995188204020931,
+      0.00048117959790654755
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9898214828525811,
+      0.01017851714741888
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -2.1613107704544654
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Purity of friendship between two is not about smiling after reading the forwarded message..Its about smiling just by seeing the name. Gud evng"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9841771359619326,
+      0.015822864038068263
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9239691796106303,
+      0.07603082038936974
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.0004025183736507
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "I thought slide is enough."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9066354905445545,
+      0.0933645094554461
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9303461332734003,
+      0.06965386672659969
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.1496859349630517
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Huh i cant thk of more oredi how many pages do we have?"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9773515707241013,
+      0.022648429275899606
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9425060481781675,
+      0.05749395182183249
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.19090569087795
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Pathaya enketa maraikara pa'"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9729451843271302,
+      0.02705481567286964
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9493839909171656,
+      0.05061600908283435
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.5881575546133715
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "ÌÏ thk of wat to eat tonight."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9985263096145945,
+      0.0014736903854045955
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.973215671210448,
+      0.026784328789551917
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.2936607272029481
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Ha ha nan yalrigu heltini..Iyo kothi chikku, u shared many things wit me..so far i didn't told any body and even uttered a word abt u.. If ur trusting me so much how can i tell these to others.. Plz nxt time dont use those words to me..ok, chikku:-);-)B-)"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9983068918384872,
+      0.001693108161515306
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9670601626658507,
+      0.032939837334149256
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.4482617898598598
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Good afternoon, babe. How goes that day ? Any job prospects yet ? I miss you, my love ... *sighs* ... :-("
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9968581126219132,
+      0.003141887378086089
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9648115208529702,
+      0.03518847914702983
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.282936756840318
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Im sorry bout last nite it wasnåÕt ur fault it was me, spouse it was pmt or sumthin! U 4give me? I think u shldxxxx"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9920655608253122,
+      0.007934439174689086
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9507215282688546,
+      0.04927847173114539
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.2401096675277756
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Poyyarikatur,kolathupalayam,unjalur post,erode dis, &lt;#&gt; ."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9951686367676958,
+      0.004831363232304806
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9769483020834338,
+      0.023051697916566256
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.7456618660397627
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Good Morning my Dear Shijutta........... Have a great &amp; successful day."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9960991408177612,
+      0.003900859182237135
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9722761446784222,
+      0.027723855321577794
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.311160311809589
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Armand says get your ass over to epsilon"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.963470005001429,
+      0.036529994998571076
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9349957193288212,
+      0.06500428067117882
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.0717450360474603
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Warner Village 83118 C Colin Farrell in SWAT this wkend @Warner Village & get 1 free med. Popcorn!Just show msg+ticket@kiosk.Valid 4-7/12. C t&c @kiosk. Reply SONY 4 mre film offers"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.669234086339687,
+      0.3307659136603126
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7289501861145101,
+      0.2710498138854899
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -0.25734440384021295
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Mark works tomorrow. He gets out at 5. His work is by your house so he can meet u afterwards."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9901774188497615,
+      0.009822581150237092
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9563010203356337,
+      0.043698979664366325
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.2431974659983194
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Rock yr chik. Get 100's of filthy films &XXX pics on yr phone now. rply FILTH to 69669. Saristar Ltd, E14 9YT 08701752560. 450p per 5 days. Stop2 cancel"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.540660307333278,
+      0.4593396926667221
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.7630450837313513,
+      0.2369549162686487
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -0.015944271343808825
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "So many people seems to be special at first sight, But only very few will remain special to you till your last sight.. Maintain them till life ends.. Sh!jas"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9485882185075364,
+      0.05141178149246306
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9122018327070506,
+      0.08779816729294938
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.0004781786910222
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "ÌÏ called dad oredi..."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9917930241292041,
+      0.008206975870795072
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9487648174360076,
+      0.05123518256399239
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.162056196557304
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Ok... But bag again.."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9804639763747491,
+      0.019536023625251503
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9640153196500755,
+      0.035984680349924476
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.2347545307901557
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "I'm a guy, browsin is compulsory"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9626778064979249,
+      0.0373221935020751
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9349329969764465,
+      0.0650670030235535
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -0.9720400882895233
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Mmmmm ... I loved waking to your words this morning ! I miss you too, my Love. I hope your day goes well and you are happy. I wait for us to be together again"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9974515434835143,
+      0.00254845651648455
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9715982820931216,
+      0.028401717906878444
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.56797268723823
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Sorry, I'll call later"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9993393833351151,
+      0.0006606166648848164
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9911773782044246,
+      0.008822621795575414
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -2.4248966215602734
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Still chance there. If you search hard you will get it..let have a try :)"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9634896519852097,
+      0.03651034801479019
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9082279080806496,
+      0.0917720919193504
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.0001150832690762
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Have you emigrated or something? Ok maybe 5.30 was a bit hopeful..."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9932179411750228,
+      0.006782058824976658
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9670579258985118,
+      0.03294207410148823
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.5470943605598495
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Hurt me... Tease me... Make me cry... But in the end of my life when i die plz keep one rose on my grave and say STUPID I MISS U.. HAVE A NICE DAY BSLVYL"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.996409687360085,
+      0.003590312639914888
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9576614563092526,
+      0.04233854369074738
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.1769003340324788
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "I know girls always safe and selfish know i got it pa. Thank you. good night."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9953905309230785,
+      0.004609469076921227
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9700439086305098,
+      0.02995609136949022
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.3582196666414976
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "O ic lol. Should play 9 doors sometime yo"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9618012102131389,
+      0.03819878978685964
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9260047801120523,
+      0.0739952198879477
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -0.9645559800795075
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "What year. And how many miles."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9590302692290122,
+      0.040969730770987596
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9383279798070305,
+      0.06167202019296944
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.2940102092142571
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Hello beautiful r u ok? I've kinda ad a row wiv and he walked out the pub?? I wanted a night wiv u Miss u "
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.98216935830106,
+      0.01783064169893888
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9368581684196846,
+      0.06314183158031533
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -0.9763377966109116
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "I'm home. Doc gave me pain meds says everything is fine."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9929255944093903,
+      0.007074405590609265
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9646705714568283,
+      0.035329428543171656
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.5175525707314361
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "idc get over here, you are not weaseling your way out of this shit twice in a row"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9447410852998904,
+      0.05525891470011102
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9305019342066235,
+      0.06949806579337643
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.1322521654238935
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "sexy sexy cum and text me im wet and warm and ready for some porn! u up for some fun? THIS MSG IS FREE RECD MSGS 150P INC VAT 2 CANCEL TEXT STOP"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.6567734429589958,
+      0.3432265570410042
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.3148495520828607,
+      0.6851504479171393
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 1,
+     "scores": [
+      0.730648095959792
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "You could have seen me..i did't recognise you Face.:)"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9671659344122935,
+      0.03283406558770544
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9488733826389721,
+      0.0511266173610279
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.3411360488384592
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "FREE for 1st week! No1 Nokia tone 4 ur mob every week just txt NOKIA to 8007 Get txting and tell ur mates www.getzed.co.uk POBox 36504 W45WQ norm150p/tone 16+"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.01484705636514928,
+      0.9851529436348512
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.0749529853552322,
+      0.9250470146447678
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 1,
+     "scores": [
+      1.941149476650279
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Ok k..sry i knw 2 siva..tats y i askd.."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9723017334184658,
+      0.02769826658153363
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9535598180899395,
+      0.0464401819100605
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.1224264785064593
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Joy's father is John. Then John is the ____ of Joy's father. If u ans ths you hav  &lt;#&gt;  IQ. Tis s IAS question try to answer."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9788419957415356,
+      0.021158004258462867
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9452435715445275,
+      0.05475642845547243
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.1587386587808597
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Not yet. Just i'd like to keep in touch and it will be the easiest way to do that from barcelona. By the way how ru and how is the house?"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9953286868361447,
+      0.004671313163854792
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9732433053983688,
+      0.02675669460163118
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.6594170404417377
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Send his number and give reply tomorrow morning for why you said that to him like that ok"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9976639654849131,
+      0.002336034515087055
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9407973440673246,
+      0.05920265593267537
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.4201637152111177
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Slept? I thinkThis time ( &lt;#&gt;  pm) is not dangerous"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9943397945822429,
+      0.005660205417756409
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.974066391602924,
+      0.02593360839707605
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.5006779277980984
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "You didnt complete your gist oh."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9760628154346763,
+      0.02393718456532342
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9480943592024642,
+      0.05190564079753583
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.135795028782552
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Honestly i've just made a lovely cup of tea and promptly dropped my keys in it and then burnt my fingers getting them out!"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9757642550196695,
+      0.02423574498033151
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9429176515678329,
+      0.05708234843216705
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.3127159260154837
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Double your mins & txts on Orange or 1/2 price linerental - Motorola and SonyEricsson with B/Tooth FREE-Nokia FREE Call MobileUpd8 on 08000839402 or2optout/HV9D"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.054191386362269355,
+      0.9458086136377319
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.2874004756422287,
+      0.7125995243577713
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 1,
+     "scores": [
+      1.106699463230652
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Hey so this sat are we going for the intro pilates only? Or the kickboxing too? "
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9857413213467249,
+      0.014258678653275894
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9627511505612948,
+      0.03724884943870516
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.3417133557436072
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "URGENT! You have won a 1 week FREE membership in our £100,000 Prize Jawa. Text WIN to 80086 now"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.047609432201667364,
+      0.9523905677983338
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.05960524396182931,
+      0.9403947560381707
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 1,
+     "scores": [
+      1.702255689270765
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Hey, are we still on for lunch tomorrow? Let me know what time works."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9975424848855852,
+      0.0024575151144143395
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9774750321233616,
+      0.02252496787663838
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.9239071458357062
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Congratulations! You've been selected to receive a free iPhone. Click here to claim your prize."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.14985273249405592,
+      0.8501472675059425
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.23776580319879304,
+      0.762234196801207
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 1,
+     "scores": [
+      0.8373905667297764
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "Can you pick up milk on your way home please"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9956388591982436,
+      0.004361140801756616
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9780310833664759,
+      0.021968916633524068
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.8090335846099996
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "FreeMsg: Claim your 500 free text messages. Reply YES to 87121 to activate. Std rates apply."
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.05840355951756006,
+      0.9415964404824383
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 1,
+     "probabilities": [
+      0.13500205126309495,
+      0.864997948736905
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 1,
+     "scores": [
+      1.7558106909499545
+     ]
+    }
+   }
+  },
+  {
+   "input": {
+    "text": "I'll be there in 10 minutes, just leaving the office now"
+   },
+   "expected": {
+    "naive_bayes": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9902051451468505,
+      0.009794854853150617
+     ]
+    },
+    "logistic_regression": {
+     "predictedIndex": 0,
+     "probabilities": [
+      0.9510211446592993,
+      0.04897885534070069
+     ]
+    },
+    "linear_svm": {
+     "predictedIndex": 0,
+     "scores": [
+      -1.3328206702265915
+     ]
+    }
+   }
+  }
+ ]
+}

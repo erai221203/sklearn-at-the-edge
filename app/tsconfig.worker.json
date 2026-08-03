@@ -1,0 +1,21 @@
+{
+  // Worker and test half. Runtime globals come from worker-configuration.d.ts,
+  // which `wrangler types` regenerates from wrangler.jsonc.
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2023"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "types": ["node"]
+  },
+  "include": ["worker", "shared", "tests", "worker-configuration.d.ts"]
+}

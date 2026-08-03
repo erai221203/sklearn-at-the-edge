@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "codsoft-ml-studio",
+  "main": "worker/index.ts",
+  "compatibility_date": "2025-11-01",
+  "assets": {
+    // The Worker reads model artifacts back out of its own static assets.
+    "binding": "ASSETS",
+    // Client-side routing: unknown paths return the SPA shell, not a 404...
+    "not_found_handling": "single-page-application",
+    // ...except API routes, which must reach the Worker rather than being
+    // answered with index.html.
+    "run_worker_first": ["/api/*"]
+  },
+  "observability": {
+    "enabled": true
+  }
+}
