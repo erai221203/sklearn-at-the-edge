@@ -4,7 +4,11 @@
   "private": true,
   "type": "module",
   "description": "Cloudflare-hosted frontend and inference API for the CodSoft machine learning tasks.",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
+    "predeploy": "npm run check",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",

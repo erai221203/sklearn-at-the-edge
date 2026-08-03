@@ -7,6 +7,9 @@ export default defineConfig({
   // code path as production instead of a Node stand-in.
   plugins: [react(), cloudflare()],
   build: {
-    sourcemap: true,
+    // The client source map is ~970 KB of publicly served asset that only a
+    // reader with devtools open would ever fetch, and the source is on GitHub
+    // anyway. Set to true locally if you need to debug a production bundle.
+    sourcemap: false,
   },
 });

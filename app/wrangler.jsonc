@@ -1,7 +1,11 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "codsoft-ml-studio",
+  // Also the subdomain: <name>.<your-subdomain>.workers.dev
+  "name": "sklearn-at-the-edge",
   "main": "worker/index.ts",
+  // Pinned deliberately. Raising it opts into newer runtime behaviour, so it
+  // should be a considered change with a re-run of the test suite, never a
+  // drive-by edit.
   "compatibility_date": "2025-11-01",
   "assets": {
     // The Worker reads model artifacts back out of its own static assets.

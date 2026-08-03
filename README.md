@@ -129,13 +129,67 @@ The trained artifacts are committed, so if you only want to run the site you can
 step 1 entirely.
 
 ```bash
-npm run check      # typecheck both projects + 52 tests
+npm run check      # typecheck both projects + 57 tests
 npm run build      # client bundle + Worker
-npm run deploy     # build, then wrangler deploy
 ```
 
-Deploying needs a Cloudflare account: `npx wrangler login`, then `npm run deploy`. Nothing
-else is required — no database, no environment variables, no separate backend.
+---
+
+## Deploying
+
+This is **not a static site**, so it goes to Workers rather than Pages. One Worker serves
+both halves:
+
+| Path | Served as |
+|---|---|
+| `/`, `/churn`, `/spam`, `/movie-genre` | static assets (the SPA shell) |
+| `/assets/*`, `/models/*.json` | static assets |
+| `/api/*` | Worker code — this is where inference runs |
+
+`run_worker_first: ["/api/*"]` in `wrangler.jsonc` sends API calls to the Worker and lets
+everything else be answered straight from the edge, and `not_found_handling:
+"single-page-application"` makes `/churn` deep-link instead of 404ing.
+
+The model weights are static files, but the **Worker** reads them through its `ASSETS`
+binding and caches them per isolate — the browser downloads ~74 KB of JavaScript, never the
+3.6 MB of weights.
+
+### By hand
+
+```bash
+cd app
+npx wrangler login
+npm run deploy          # runs the checks, builds, then deploys
+```
+
+That publishes to `https://sklearn-at-the-edge.<your-subdomain>.workers.dev`. To change the
+name — and the URL — edit `name` in `wrangler.jsonc`.
+
+Nothing else to configure: no database, no environment variables, no separate backend, and
+no Python at request time. The trained artifacts are committed, so a fresh clone deploys
+without ever running the trainers.
+
+### From GitHub
+
+`.github/workflows/deploy.yml` typechecks, tests and builds every push and pull request, and
+deploys on a push to `main`. It needs two repository secrets
+(**Settings → Secrets and variables → Actions**):
+
+| Secret | Where it comes from |
+|---|---|
+| `CLOUDFLARE_API_TOKEN` | Cloudflare dashboard → My Profile → API Tokens → *Edit Cloudflare Workers* template |
+| `CLOUDFLARE_ACCOUNT_ID` | Workers & Pages overview, right-hand sidebar |
+
+The deploy job only runs if the parity suite passes, so a model export that stops matching
+scikit-learn cannot reach production.
+
+### Limits this fits inside
+
+| | This project | Free plan |
+|---|---|---|
+| Worker script | 74 KB (20 KB gzipped) | 3 MB gzipped |
+| Static assets | 13 files, 3.8 MB, largest 2.2 MB | 20,000 files, 25 MB each |
+| CPU per request | ~1 ms warm | 10 ms |
 
 ---
 
